@@ -1,0 +1,126 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP19",
+                "stepName": "Url: WebTours",
+                "infFile": "t2.inf",
+                "time": 1600511936485
+            },
+            {
+                "stepId": "STEP20",
+                "stepName": "Submit Data: login.pl",
+                "infFile": "t3.inf",
+                "time": 1600511937152
+            },
+            {
+                "stepId": "STEP21",
+                "stepName": "Url: Search Flights Button",
+                "infFile": "t4.inf",
+                "time": 1600511942640
+            },
+            {
+                "stepId": "STEP22",
+                "stepName": "Submit Data: reservations.pl",
+                "infFile": "t6.inf",
+                "time": 1600511948011
+            },
+            {
+                "stepId": "STEP23",
+                "stepName": "Submit Data: reservations.pl_2",
+                "infFile": "t7.inf",
+                "time": 1600511953338
+            },
+            {
+                "stepId": "STEP24",
+                "stepName": "Submit Data: reservations.pl_3",
+                "infFile": "t8.inf",
+                "time": 1600511958690
+            },
+            {
+                "stepId": "STEP25",
+                "stepName": "Url: Itinerary Button",
+                "infFile": "t9.inf",
+                "time": 1600511964207
+            },
+            {
+                "stepId": "STEP26",
+                "stepName": "Submit Form: itinerary.pl",
+                "infFile": "t10.inf",
+                "time": 1600511969701
+            },
+            {
+                "stepId": "STEP27",
+                "stepName": "Url: welcome.pl",
+                "infFile": "t11.inf",
+                "time": 1600511975256
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "connection",
+                "rawStartTime": 1600511936042,
+                "rawEndTime": 1600511936488,
+                "thinkTime": 0.0,
+                "wastedTime": 0.02904963493347168
+            },
+            {
+                "transactionName": "login",
+                "rawStartTime": 1600511936537,
+                "rawEndTime": 1600511937154,
+                "thinkTime": 0.0,
+                "wastedTime": 0.028528451919555665
+            },
+            {
+                "transactionName": "insert_info_for_ticket_search",
+                "rawStartTime": 1600511947687,
+                "rawEndTime": 1600511948014,
+                "thinkTime": 0.0,
+                "wastedTime": 0.019388914108276368
+            },
+            {
+                "transactionName": "choose_the_flight",
+                "rawStartTime": 1600511953028,
+                "rawEndTime": 1600511953340,
+                "thinkTime": 0.0,
+                "wastedTime": 0.018436193466186525
+            },
+            {
+                "transactionName": "insert_payment_info",
+                "rawStartTime": 1600511958387,
+                "rawEndTime": 1600511958692,
+                "thinkTime": 0.0,
+                "wastedTime": 0.019706010818481447
+            },
+            {
+                "transactionName": "view_itinerary",
+                "rawStartTime": 1600511963736,
+                "rawEndTime": 1600511964209,
+                "thinkTime": 0.0,
+                "wastedTime": 0.031854867935180667
+            },
+            {
+                "transactionName": "cancel_flight",
+                "rawStartTime": 1600511969235,
+                "rawEndTime": 1600511969708,
+                "thinkTime": 0.0,
+                "wastedTime": 0.020053625106811525
+            },
+            {
+                "transactionName": "logout",
+                "rawStartTime": 1600511974802,
+                "rawEndTime": 1600511975269,
+                "thinkTime": 0.0,
+                "wastedTime": 0.021404743194580079
+            },
+            {
+                "transactionName": "01_Cancel_flight",
+                "rawStartTime": 1600511935978,
+                "rawEndTime": 1600511975284,
+                "thinkTime": 35.019133000000007,
+                "wastedTime": 0.22577142715454102
+            }
+        ]
+    }
+]

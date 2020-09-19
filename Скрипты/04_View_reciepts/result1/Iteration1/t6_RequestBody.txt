@@ -1,0 +1,3 @@
+"advanceDiscount=0&depart=Seattle&departDate=07%2F06%2F2021&arrive=Sydney&returnDate=%7BreturnD"
+"ate%7D&numPassengers=%7BnumPassengers%7D&seatPref=None&seatType=Coach&findFlights.x=39&findFli"
+"ghts.y=17&.cgifields=roundtrip&.cgifields=seatType&.cgifields=seatPref"

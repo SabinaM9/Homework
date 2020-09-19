@@ -1,0 +1,8 @@
+HEAD /get-ynews-logo/26056/1047-1478692902215-square/logo-square HTTP/1.1
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Host: avatars.mds.yandex.net
+Connection: Keep-Alive
+Cache-Control: no-cache
+

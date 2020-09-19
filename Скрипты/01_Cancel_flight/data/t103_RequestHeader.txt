@@ -1,0 +1,10 @@
+GET /search/yandcache.js HTTP/1.1
+Accept: application/javascript, */*;q=0.8
+Referer: https://yandex.ru/
+Accept-Language: ru-RU
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: yandex.ru
+Connection: Keep-Alive
+Cookie: i=t4zyzh3as39zzLkI8sPU0fh5A6ndEy8jnBfniN8u3guDpI7b9pcbatVVrMQ1g+rEbtGaryu683JJEEmqfW5BgY/KNmA=; yandexuid=6753078661600349484; yp=1600608695.clh.2256428-306#1602941486.ygu.1#1616117497.szm.1:1600x900:1600x752; ys=mclid.2256428-306; mda=0; yandex_gid=213; font_loaded=YSv1; my=YwA=; ymex=1915709495.yrts.1600349495; yabs-frequency=/5/0000000000000000/7A0_ROO0000WFI40/; _ym_wasSynced=%7B%22time%22%3A1600349499378%2C%22params%22%3A%7B%22eu%22%3A0%7D%2C%22bkParams%22%3A%7B%7D%7D; gdpr=0; _ym_uid=1600349499578364214; _ym_d=1600349499; _ym_isad=2; yc=1600608713.zen.cacS%3A1600353086
+

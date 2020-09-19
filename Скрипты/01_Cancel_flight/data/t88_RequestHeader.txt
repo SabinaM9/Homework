@@ -1,0 +1,9 @@
+GET /get-zen_doc/2262910/-8768793855963766362/smart_crop_516x290 HTTP/1.1
+Accept: image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5
+Referer: https://yandex.ru/
+Accept-Language: ru-RU
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: avatars.mds.yandex.net
+Connection: Keep-Alive
+

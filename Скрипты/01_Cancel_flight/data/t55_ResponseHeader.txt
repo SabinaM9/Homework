@@ -1,0 +1,20 @@
+HTTP/1.1 200 OK
+Server: nginx/1.17.9
+Date: Thu, 17 Sep 2020 13:31:33 GMT
+Content-Type: application/font-woff
+Content-Length: 60770
+Connection: keep-alive
+Keep-Alive: timeout=5
+Access-Control-Allow-Origin: *
+Cache-Control: public, max-age=31556952
+Etag: "e199e5b56a6575ef46e399512e1666f6"
+Expires: Fri, 17 Sep 2021 19:19:35 GMT
+Last-Modified: Thu, 25 Jan 2018 09:56:42 GMT
+NEL: {"report_to": "network-errors", "max_age": 600, "success_fraction": 0.001, "failure_fraction": 0.01}
+Report-To: { "group": "network-errors", "max_age": 600, "endpoints": [ { "url": "https://dr.yandex.net/nel"}]}
+Strict-Transport-Security: max-age=43200000; includeSubDomains;
+Timing-Allow-Origin: *
+Vary: Accept-Encoding
+X-Nginx-Request-Id: eb4ebcf201de704a
+Accept-Ranges: bytes
+

@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Server: nginx/1.12.2
+Date: Thu, 17 Sep 2020 13:31:35 GMT
+Content-Length: 0
+Connection: keep-alive
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: https://yandex.ru
+Cache-Control: private, no-cache, no-store, must-revalidate, max-age=0
+Expires: Thu, 17 Sep 2020 13:31:35 GMT
+Last-Modified: Thu, 17 Sep 2020 13:31:35 GMT
+P3P: CP="NOI DEVa TAIa OUR BUS UNI STA"
+Pragma: no-cache
+Set-Cookie: yabs-frequency=/5/0000000000000000/7A0_ROO0000WFI40/; domain=.yandex.ru; path=/; expires=Sat, 26-Dec-2020 13:31:35 GMT
+X-XSS-Protection: 1; mode=block
+

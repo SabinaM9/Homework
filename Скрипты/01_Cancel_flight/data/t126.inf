@@ -1,0 +1,10 @@
+[t126]
+FileName1=t124_jobs.json
+URL1=https://strm.yandex.ru/probe/jobs?count=5&size=51200
+Total=1
+SnapshotXmlFile=snapshot_126.xml
+RequestHeaderFile=t126_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t126_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

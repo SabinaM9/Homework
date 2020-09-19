@@ -1,0 +1,408 @@
+[API Trapper      (2140:2598)] Recording in 32-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[API Trapper      (1ff4:2124)] Recording in 32-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[API Trapper      ( db4:2940)] Recording in 32-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[Network Analyzer ( db4:10dc)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( db4:10dc)] Load Network Traffic Analyzers:
+[Network Analyzer ( db4:10dc)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer ( db4:10dc)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer ( db4:10dc)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer ( db4:10dc)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer ( db4:10dc)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer.dll)
+[Network Analyzer ( db4:10dc)]     + Network Analyzer: WebSocketAnalyzer.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer ( db4:10dc)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( db4:2684)] Address lookup for Luntik = 192.168.0.17
+[Network Analyzer ( db4:10dc)] Address lookup for Luntik = 192.168.0.17
+[Network Analyzer ( db4:10dc)] Request Connection: Remote Server @ 64.233.161.94:443   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer ( db4:1ae0)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[API Trapper      ( 5a0:2ab0)] Recording in 32-bit mode: C:\WINDOWS\SysWOW64\cmd.exe
+[Net An. Warning  ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[API Trapper      (2190:240c)] Recording in 32-bit mode: C:\Program Files (x86)\Adobe\Acrobat Reader DC\Reader\Browser\WCChromeExtn\WCChromeNativeMessagingHost.exe
+[Net An. Warning  ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( db4:10dc)] Address lookup for Luntik = 192.168.0.17
+[Network Analyzer ( db4:10dc)] Request Connection: Remote Server @ 64.233.161.84:443   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer ( db4:10dc)] Address lookup for Luntik = 192.168.0.17
+[Network Analyzer ( db4:10dc)] Request Connection: Remote Server @ 52.74.162.152:443   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer ( db4:1ae0)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_CHACHA20_POLY1305_SHA256)
+[Network Analyzer ( db4:1ba8)]   (Sid:  2) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( db4:2b30)]   (Sid:  3) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Warning  ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( db4:10dc)] Address lookup for Luntik = 192.168.0.17
+[Network Analyzer ( db4:10dc)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  4)  PROXIED!
+[Web Request      ( db4:2684)] "GET /chrome-variations/seed?osname=win&channel=stable&milestone=85"   
+[Network Analyzer ( db4:2684)]   (Sid:  1) Client -> Server @ : 444 bytes (SSL)(Service=HTTP)
+[Web Request      ( db4:2684)] "GET /WebTours/"   
+[Network Analyzer ( db4:2684)]   (Sid:  4) Client -> Server @ : 523 bytes (Service=HTTP)
+[Network Analyzer ( db4:2b30)]   (Sid:  3) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_CHACHA20_POLY1305_SHA256)
+[Network Analyzer ( db4:2684)]   (Sid:  4) Server -> Client : 664 bytes  (Service=HTTP)
+[Web Request      ( db4:2684)] "GET /b/ss/adbcreatepdfplugin.prod/1/JS-1.6/s56883248052023?AQB=1&ndh=1&pf=1&t=15%2F8%2F2020%2019%3A20%3A57%202%20-180&fid=01FC0AE2FC99440E-0A4AFC4189CBD131&ce=UTF-8&pageName=DCBrowserExt%3AShim%3AVersion%3AUnknown%3AOp&g=chrome-extension%3A%2F%2Fefaidnbmnnnibpcajpcglclefindmkaj%2F_generated_background_page.html&v1=15.1.2.2&v2=sideload&v3=prod&v4=not_set&s=1600x900&c=24&j=1.6&v=N&k=Y&bh=8&AQE=1"   
+[Network Analyzer ( db4:2684)]   (Sid:  3) Client -> Server @ : 860 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid:  1) Server -> Client : 379 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( db4:1ba8)]   (Sid:  2) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_CHACHA20_POLY1305_SHA256)
+[Web Request      ( db4:2684)] "GET /WebTours/header.html"   
+[Network Analyzer ( db4:2684)]   (Sid:  4) Client -> Server @ : 560 bytes (Service=HTTP)
+[Web Request      ( db4:2684)] "POST /ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard"   
+[Network Analyzer ( db4:2684)]   (Sid:  2) Client -> Server @ : 855 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid:  4) Server -> Client : 1007 bytes  (Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid:  2) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid:  2) Server -> Client : 68 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid:  2) Server -> Client : 16 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid:  2) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid:  3) Server -> Client : 748 bytes (SSL) (Service=HTTP)
+[Net An. Warning  ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( db4:2684)]   (Sid:  4) Connection Terminated (by Server)
+[Net An. Warning  ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( db4:10dc)] Address lookup for Luntik = 192.168.0.17
+[Network Analyzer ( db4:10dc)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  5)  PROXIED!
+[Web Request      ( db4:2684)] "GET /cgi-bin/welcome.pl?signOff=true"   
+[Network Analyzer ( db4:2684)]   (Sid:  5) Client -> Server @ : 571 bytes (Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid:  5) Server -> Client : 1021 bytes  (Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid:  5) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid:  2) Connection Terminated (by Client)
+[Network Analyzer ( db4:2684)]   (Sid:  3) Connection Terminated (by Client)
+[Network Analyzer ( db4:2684)]   (Sid:  1) Connection Terminated (by Client)
+[Network Analyzer ( db4:10dc)] Address lookup for Luntik = 192.168.0.17
+[Network Analyzer ( db4:10dc)] Request Connection: Remote Server @ 52.74.162.152:443   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer ( db4:10dc)] Address lookup for Luntik = 192.168.0.17
+[Network Analyzer ( db4:10dc)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  7)  PROXIED!
+[Web Request      ( db4:2684)] "GET /WebTours/images/hp_logo.png"   
+[Network Analyzer ( db4:2684)]   (Sid:  5) Client -> Server @ : 490 bytes (Service=HTTP)
+[Web Request      ( db4:2684)] "GET /WebTours/images/webtours.png"   
+[Network Analyzer ( db4:2684)]   (Sid:  7) Client -> Server @ : 491 bytes (Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid:  5) Server -> Client : 898 bytes  (Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid:  7) Server -> Client : 4487 bytes  (Service=HTTP)
+[Web Request      ( db4:2684)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer ( db4:2684)]   (Sid:  7) Client -> Server @ : 612 bytes (Service=HTTP)
+[Web Request      ( db4:2684)] "GET /WebTours/home.html"   
+[Network Analyzer ( db4:2684)]   (Sid:  5) Client -> Server @ : 608 bytes (Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid:  5) Server -> Client : 1659 bytes  (Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid:  7) Server -> Client : 1751 bytes  (Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid:  7) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer ( db4: 490)]   (Sid:  6) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( db4: 490)]   (Sid:  6) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_CHACHA20_POLY1305_SHA256)
+[Web Request      ( db4:2684)] "GET /WebTours/images/mer_login.gif"   
+[Network Analyzer ( db4:2684)]   (Sid:  7) Client -> Server @ : 494 bytes (Service=HTTP)
+[Web Request      ( db4:2684)] "GET /b/ss/adbcreatepdfplugin.prod/1/JS-1.6/s55984500924372?AQB=1&ndh=1&pf=1&t=15%2F8%2F2020%2019%3A20%3A57%202%20-180&fid=01FC0AE2FC99440E-0A4AFC4189CBD131&ce=UTF-8&pageName=DCBrowserExt%3AExtension%3AStartup%3AOp&g=chrome-extension%3A%2F%2Fefaidnbmnnnibpcajpcglclefindmkaj%2F_generated_background_page.html&v1=15.1.2.2&v2=sideload&v3=prod&v4=unknown&AQE=1"   
+[Network Analyzer ( db4:2684)]   (Sid:  6) Client -> Server @ : 820 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid:  7) Server -> Client : 976 bytes  (Service=HTTP)
+[API Trapper      (1970:169c)] Recording in 32-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[Web Request      ( db4:2684)] "GET /favicon.ico"   
+[Network Analyzer ( db4:2684)]   (Sid:  7) Client -> Server @ : 463 bytes (Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid:  7) Server -> Client : 424 bytes  (Service=HTTP)
+[Network Analyzer ( db4:10dc)] Address lookup for Luntik = 192.168.0.17
+[Network Analyzer ( db4:10dc)] Request Connection: Remote Server @ 74.125.205.95:443   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer ( db4:2684)]   (Sid:  6) Server -> Client : 748 bytes (SSL) (Service=HTTP)
+[Web Request      ( db4:2684)] "GET /b/ss/adbcreatepdfplugin.prod/1/JS-1.6/s54842660383606?AQB=1&ndh=1&pf=1&t=15%2F8%2F2020%2019%3A20%3A57%202%20-180&fid=01FC0AE2FC99440E-0A4AFC4189CBD131&ce=UTF-8&pageName=DCBrowserExt%3AOS%3Awin%3AOp&g=chrome-extension%3A%2F%2Fefaidnbmnnnibpcajpcglclefindmkaj%2F_generated_background_page.html&v1=15.1.2.2&v2=sideload&v3=prod&v4=unknown&AQE=1"   
+[Network Analyzer ( db4:2684)]   (Sid:  6) Client -> Server @ : 809 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( db4:24f4)]   (Sid:  8) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( db4:24f4)]   (Sid:  8) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_CHACHA20_POLY1305_SHA256)
+[Network Analyzer ( db4:2684)]   (Sid:  6) Server -> Client : 748 bytes (SSL) (Service=HTTP)
+[Web Request      ( db4:2684)] "GET /v1/pages/Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRIfCU35IjnBRbgwEgkN541ADhIAGgASCQ3OQUx6EgAaAA==?alt=proto"   
+[Network Analyzer ( db4:2684)]   (Sid:  8) Client -> Server @ : 534 bytes (SSL)(Service=HTTP)
+[Web Request      ( db4:2684)] "GET /b/ss/adbcreatepdfplugin.prod/1/JS-1.6/s57895049646513?AQB=1&ndh=1&pf=1&t=15%2F8%2F2020%2019%3A20%3A57%202%20-180&fid=01FC0AE2FC99440E-0A4AFC4189CBD131&ce=UTF-8&pageName=DCBrowserExt%3AShim%3AVersion%3A13.0%3AOp&g=chrome-extension%3A%2F%2Fefaidnbmnnnibpcajpcglclefindmkaj%2F_generated_background_page.html&v1=15.1.2.2&v2=sideload&v3=prod&v4=unknown&AQE=1"   
+[Network Analyzer ( db4:2684)]   (Sid:  6) Client -> Server @ : 822 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid:  8) Server -> Client : 665 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid:  6) Server -> Client : 748 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid:  7) Connection Terminated (by Client)
+[Network Analyzer ( db4:2684)]   (Sid:  5) Connection Terminated (by Client)
+[Network Analyzer ( db4:2684)]   (Sid:  6) Connection Terminated (by Client)
+[Network Analyzer ( db4:2684)]   (Sid:  8) Connection Terminated (by Client)
+[API Trapper      (2964:274c)] Recording in 32-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[Network Analyzer ( db4:10dc)] Address lookup for Luntik = 192.168.0.17
+[Network Analyzer ( db4:10dc)] Request Connection: Remote Server @ 173.194.222.94:443   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer ( db4:2b00)]   (Sid:  9) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( db4:2b00)]   (Sid:  9) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_CHACHA20_POLY1305_SHA256)
+[Network Analyzer ( db4:2684)]   (Sid:  9) Client -> Server @ : 1157 bytes (SSL)(Service=HTTP)
+[Web Request      ( db4:2684)] "POST /service/update2/json?cup2key=10:3224973373&cup2hreq=b64196db65e3be7724d454cf7ed9d5ea3a30ce11df66525cbd53e048c1951277"   
+[Network Analyzer ( db4:2684)]   (Sid:  9) Client -> Server @ : 5439 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid:  9) Server -> Client : 1318 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid:  9) Server -> Client : 642 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid:  9) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid:  9) Connection Terminated (by Client)
+[API Trapper      (1fac:27fc)] Recording in 32-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[Network Analyzer ( db4:10dc)] Address lookup for Luntik = 192.168.0.17
+[Network Analyzer ( db4:10dc)] Request Connection: Remote Server @ 64.233.161.94:443   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer ( db4: e60)]   (Sid: 10) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( db4: e60)]   (Sid: 10) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_CHACHA20_POLY1305_SHA256)
+[Network Analyzer ( db4:10dc)] Address lookup for Luntik = 192.168.0.17
+[Network Analyzer ( db4:2684)]   (Sid: 10) Client -> Server @ : 579 bytes (SSL)(Service=HTTP)
+[Web Request      ( db4:2684)] "POST /uma/v2"   
+[Network Analyzer ( db4:2684)]   (Sid: 10) Client -> Server @ : 1740 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( db4:10dc)] Request Connection: Remote Server @ 173.194.222.94:443   (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer ( db4:2684)]   (Sid: 10) Server -> Client : 719 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid: 10) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( db4: e38)]   (Sid: 11) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( db4: e38)]   (Sid: 11) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_CHACHA20_POLY1305_SHA256)
+[Network Analyzer ( db4:2684)]   (Sid: 11) Client -> Server @ : 1100 bytes (SSL)(Service=HTTP)
+[Web Request      ( db4:2684)] "POST /service/update2/json?cup2key=10:1211044972&cup2hreq=6e4be2bd85ec862cb0ff22a8f2fbde15c8a111440c0c9ad09412f28b5cf3933c"   
+[Network Analyzer ( db4:2684)]   (Sid: 11) Client -> Server @ : 5387 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid: 11) Server -> Client : 1318 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid: 11) Server -> Client : 1139 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid: 11) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid: 10) Connection Terminated (by Client)
+[Network Analyzer ( db4:2684)]   (Sid: 11) Connection Terminated (by Client)
+[Network Analyzer ( db4:10dc)] Address lookup for Luntik = 192.168.0.17
+[Network Analyzer ( db4:10dc)] Request Connection: Remote Server @ 64.233.161.94:443   (Service=)  (Sid= 12)  PROXIED!
+[Network Analyzer ( db4:269c)]   (Sid: 12) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( db4:269c)]   (Sid: 12) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_CHACHA20_POLY1305_SHA256)
+[Web Request      ( db4:2684)] "POST /uma/v2"
+[Network Analyzer ( db4:2684)]   (Sid: 12) Client -> Server @ : 588 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid: 12) Client -> Server @ : 16384 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid: 12) Client -> Server @ : 9479 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid: 12) Server -> Client : 645 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid: 12) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid: 12) Client -> Server @ : 587 bytes (SSL)(Service=HTTP)
+[Web Request      ( db4:2684)] "POST /uma/v2"   
+[Network Analyzer ( db4:2684)]   (Sid: 12) Client -> Server @ : 1959 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid: 12) Server -> Client : 743 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid: 12) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( db4:10dc)] Address lookup for Luntik = 192.168.0.17
+[Network Analyzer ( db4:10dc)] Request Connection: Remote Server @ 64.233.164.94:443   (Service=)  (Sid= 13)  PROXIED!
+[Network Analyzer ( db4:2844)]   (Sid: 13) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( db4:2844)]   (Sid: 13) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_CHACHA20_POLY1305_SHA256)
+[Web Request      ( db4:2684)] "POST /uma/v2"
+[Network Analyzer ( db4:2684)]   (Sid: 13) Client -> Server @ : 588 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid: 13) Client -> Server @ : 16384 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid: 13) Client -> Server @ : 3927 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid: 13) Server -> Client : 741 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid: 13) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid: 12) Connection Terminated (by Client)
+[Network Analyzer ( db4:10dc)] Address lookup for Luntik = 192.168.0.17
+[Network Analyzer ( db4:10dc)] Request Connection: Remote Server @ 173.194.222.94:443   (Service=)  (Sid= 14)  PROXIED!
+[Network Analyzer ( db4:1178)]   (Sid: 14) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( db4:1178)]   (Sid: 14) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_CHACHA20_POLY1305_SHA256)
+[Web Request      ( db4:2684)] "POST /service/update2/json"   
+[Network Analyzer ( db4:2684)]   (Sid: 14) Client -> Server @ : 1370 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid: 14) Server -> Client : 874 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid: 14) Server -> Client : 390 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid: 14) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid: 13) Connection Terminated (by Client)
+[Network Analyzer ( db4:2684)]   (Sid: 14) Connection Terminated (by Client)
+[API Trapper      (2ac0:22f4)] Recording in 32-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[Net An. Warning  ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( db4:10dc)] Address lookup for Luntik = 192.168.0.17
+[Network Analyzer ( db4:10dc)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 15)  PROXIED!
+[Network Analyzer ( db4:10dc)] Address lookup for Luntik = 192.168.0.17
+[Web Request      ( db4:2684)] "POST /cgi-bin/login.pl"   
+[Network Analyzer ( db4:2684)]   (Sid: 15) Client -> Server @ : 870 bytes (Service=HTTP)
+[Network Analyzer ( db4:10dc)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 16)  PROXIED!
+[Network Analyzer ( db4:2684)]   (Sid: 15) Server -> Client : 842 bytes  (Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid: 15) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( db4:2684)] "GET /cgi-bin/nav.pl?page=menu&in=home"   
+[Network Analyzer ( db4:2684)]   (Sid: 15) Client -> Server @ : 712 bytes (Service=HTTP)
+[Web Request      ( db4:2684)] "GET /cgi-bin/login.pl?intro=true"   
+[Network Analyzer ( db4:2684)]   (Sid: 16) Client -> Server @ : 707 bytes (Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid: 15) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid: 15) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid: 16) Server -> Client : 1156 bytes  (Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid: 16) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( db4:2684)] "GET /WebTours/images/flights.gif"   
+[Network Analyzer ( db4:2684)]   (Sid: 16) Client -> Server @ : 607 bytes (Service=HTTP)
+[Web Request      ( db4:2684)] "GET /WebTours/images/itinerary.gif"   
+[Network Analyzer ( db4:2684)]   (Sid: 15) Client -> Server @ : 609 bytes (Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid: 15) Server -> Client : 1030 bytes  (Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid: 16) Server -> Client : 1023 bytes  (Service=HTTP)
+[Net An. Warning  ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( db4:2684)]   (Sid: 15) Connection Terminated (by Server)
+[Network Analyzer ( db4:2684)]   (Sid: 16) Connection Terminated (by Server)
+[Net An. Warning  ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( db4:10dc)] Address lookup for Luntik = 192.168.0.17
+[Network Analyzer ( db4:10dc)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 17)  PROXIED!
+[Network Analyzer ( db4:10dc)] Address lookup for Luntik = 192.168.0.17
+[Web Request      ( db4:2684)] "GET /WebTours/images/in_home.gif"   
+[Network Analyzer ( db4:2684)]   (Sid: 17) Client -> Server @ : 607 bytes (Service=HTTP)
+[Network Analyzer ( db4:10dc)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 18)  PROXIED!
+[Network Analyzer ( db4:2684)]   (Sid: 17) Server -> Client : 986 bytes  (Service=HTTP)
+[Web Request      ( db4:2684)] "GET /WebTours/images/signoff.gif"   
+[Network Analyzer ( db4:2684)]   (Sid: 18) Client -> Server @ : 607 bytes (Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid: 18) Server -> Client : 1049 bytes  (Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid: 17) Connection Terminated (by Server)
+[Network Analyzer ( db4:2684)]   (Sid: 18) Connection Terminated (by Server)
+[Net An. Warning  ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( db4:10dc)] Address lookup for Luntik = 192.168.0.17
+[Network Analyzer ( db4:10dc)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 19)  PROXIED!
+[Network Analyzer ( db4:10dc)] Address lookup for Luntik = 192.168.0.17
+[Web Request      ( db4:2684)] "GET /cgi-bin/welcome.pl?page=search"   
+[Network Analyzer ( db4:2684)]   (Sid: 19) Client -> Server @ : 746 bytes (Service=HTTP)
+[Network Analyzer ( db4:10dc)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 20)  PROXIED!
+[Network Analyzer ( db4:2684)]   (Sid: 19) Server -> Client : 839 bytes  (Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid: 19) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( db4:2684)] "GET /cgi-bin/nav.pl?page=menu&in=flights"   
+[Network Analyzer ( db4:2684)]   (Sid: 19) Client -> Server @ : 729 bytes (Service=HTTP)
+[Web Request      ( db4:2684)] "GET /cgi-bin/reservations.pl?page=welcome"   
+[Network Analyzer ( db4:2684)]   (Sid: 20) Client -> Server @ : 730 bytes (Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid: 19) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid: 19) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( db4:2684)] "GET /WebTours/images/in_flights.gif"   
+[Network Analyzer ( db4:2684)]   (Sid: 19) Client -> Server @ : 613 bytes (Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid: 19) Server -> Client : 1023 bytes  (Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid: 20) Server -> Client : 4235 bytes  (Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid: 20) Server -> Client : 286 bytes  (Service=HTTP)
+[Net An. Warning  ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( db4:2684)]   (Sid: 19) Connection Terminated (by Server)
+[Network Analyzer ( db4:2684)]   (Sid: 20) Connection Terminated (by Server)
+[Net An. Warning  ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( db4:10dc)] Address lookup for Luntik = 192.168.0.17
+[Network Analyzer ( db4:10dc)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 21)  PROXIED!
+[Network Analyzer ( db4:10dc)] Address lookup for Luntik = 192.168.0.17
+[Web Request      ( db4:2684)] "GET /WebTours/images/home.gif"   
+[Network Analyzer ( db4:2684)]   (Sid: 21) Client -> Server @ : 607 bytes (Service=HTTP)
+[Network Analyzer ( db4:10dc)] Request Connection: Remote Server @ 64.233.165.95:443   (Service=)  (Sid= 22)  PROXIED!
+[Network Analyzer ( db4:2684)]   (Sid: 21) Server -> Client : 986 bytes  (Service=HTTP)
+[Web Request      ( db4:2684)] "GET /WebTours/images/button_next.gif"   
+[Network Analyzer ( db4:2684)]   (Sid: 21) Client -> Server @ : 615 bytes (Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid: 21) Server -> Client : 1055 bytes  (Service=HTTP)
+[Network Analyzer ( db4:2718)]   (Sid: 22) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( db4:2718)]   (Sid: 22) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_CHACHA20_POLY1305_SHA256)
+[Network Analyzer ( db4:10dc)] Address lookup for Luntik = 192.168.0.17
+[Web Request      ( db4:2684)] "GET /v1/pages/Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRJACUFCU6JtyxUKEgkNVGIprRIAGgASCQ17ncSlEgAaABIJDR87OYUSABoAEgkN2oWZYRIAGgASCQ2pjkq9EgAaAA==?alt=proto"   
+[Network Analyzer ( db4:2684)]   (Sid: 22) Client -> Server @ : 578 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( db4:10dc)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 23)  PROXIED!
+[Network Analyzer ( db4:2684)]   (Sid: 22) Server -> Client : 688 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid: 21) Connection Terminated (by Server)
+[Web Request      ( db4:2684)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer ( db4:2684)]   (Sid: 23) Client -> Server @ : 1114 bytes (Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid: 23) Server -> Client : 2708 bytes  (Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid: 23) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid: 23) Connection Terminated (by Client)
+[Network Analyzer ( db4:2684)]   (Sid: 22) Connection Terminated (by Client)
+[Net An. Warning  ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( db4:10dc)] Address lookup for Luntik = 192.168.0.17
+[Network Analyzer ( db4:10dc)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 24)  PROXIED!
+[Network Analyzer ( db4:10dc)] Address lookup for Luntik = 192.168.0.17
+[Web Request      ( db4:2684)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer ( db4:2684)]   (Sid: 24) Client -> Server @ : 1006 bytes (Service=HTTP)
+[Network Analyzer ( db4:10dc)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 25)  PROXIED!
+[Network Analyzer ( db4:2684)]   (Sid: 24) Server -> Client : 2942 bytes  (Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid: 24) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer ( db4:10dc)] Address lookup for Luntik = 192.168.0.17
+[Network Analyzer ( db4:10dc)] Request Connection: Remote Server @ 64.233.165.95:443   (Service=)  (Sid= 26)  PROXIED!
+[Network Analyzer ( db4:2684)]   (Sid: 25) Connection Terminated (by Client)
+[Network Analyzer ( db4:2684)]   (Sid: 24) Connection Terminated (by Client)
+[Network Analyzer ( db4:2988)]   (Sid: 26) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( db4:2988)]   (Sid: 26) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_CHACHA20_POLY1305_SHA256)
+[Web Request      ( db4:2684)] "GET /v1/pages/Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRJWCTnKWcjO4LgAEgkNa2iabhIAGgASCQ1Pnif4EgAaABIJDWOTJ4cSABoAEgkNolm4SRIAGgASCQ34tP6gEgAaABIJDVdoLJkSABoAEgkNbfpmyRIAGgA=?alt=proto"   
+[Network Analyzer ( db4:2684)]   (Sid: 26) Client -> Server @ : 606 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid: 26) Server -> Client : 714 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid: 26) Connection Terminated (by Client)
+[Net An. Warning  ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( db4:10dc)] Address lookup for Luntik = 192.168.0.17
+[Network Analyzer ( db4:10dc)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 27)  PROXIED!
+[Network Analyzer ( db4:10dc)] Address lookup for Luntik = 192.168.0.17
+[Web Request      ( db4:2684)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer ( db4:2684)]   (Sid: 27) Client -> Server @ : 1177 bytes (Service=HTTP)
+[Network Analyzer ( db4:10dc)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 28)  PROXIED!
+[Network Analyzer ( db4:2684)]   (Sid: 27) Server -> Client : 2852 bytes  (Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid: 27) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( db4:2684)] "GET /WebTours/images/bookanother.gif"   
+[Network Analyzer ( db4:2684)]   (Sid: 27) Client -> Server @ : 578 bytes (Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid: 27) Server -> Client : 1103 bytes  (Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid: 27) Connection Terminated (by Server)
+[Network Analyzer ( db4:2684)]   (Sid: 28) Connection Terminated (by Client)
+[Net An. Warning  ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( db4:10dc)] Address lookup for Luntik = 192.168.0.17
+[Network Analyzer ( db4:10dc)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 29)  PROXIED!
+[Network Analyzer ( db4:10dc)] Address lookup for Luntik = 192.168.0.17
+[Web Request      ( db4:2684)] "GET /cgi-bin/welcome.pl?page=itinerary"   
+[Network Analyzer ( db4:2684)]   (Sid: 29) Client -> Server @ : 728 bytes (Service=HTTP)
+[Network Analyzer ( db4:10dc)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 30)  PROXIED!
+[Network Analyzer ( db4:2684)]   (Sid: 29) Server -> Client : 814 bytes  (Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid: 29) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( db4:2684)] "GET /cgi-bin/nav.pl?page=menu&in=itinerary"   
+[Network Analyzer ( db4:2684)]   (Sid: 29) Client -> Server @ : 710 bytes (Service=HTTP)
+[Web Request      ( db4:2684)] "GET /cgi-bin/itinerary.pl"   
+[Network Analyzer ( db4:2684)]   (Sid: 30) Client -> Server @ : 693 bytes (Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid: 29) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid: 29) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid: 30) Server -> Client : 4235 bytes  (Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid: 30) Server -> Client : 3090 bytes  (Service=HTTP)
+[Web Request      ( db4:2684)] "GET /WebTours/images/in_itinerary.gif"   
+[Network Analyzer ( db4:2684)]   (Sid: 29) Client -> Server @ : 593 bytes (Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid: 30) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid: 29) Server -> Client : 1030 bytes  (Service=HTTP)
+[Web Request      ( db4:2684)] "GET /WebTours/images/cancelreservation.gif"   
+[Network Analyzer ( db4:2684)]   (Sid: 29) Client -> Server @ : 581 bytes (Service=HTTP)
+[Web Request      ( db4:2684)] "GET /WebTours/images/cancelallreservations.gif"   
+[Network Analyzer ( db4:2684)]   (Sid: 30) Client -> Server @ : 585 bytes (Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid: 29) Server -> Client : 1128 bytes  (Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid: 30) Server -> Client : 1039 bytes  (Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid: 29) Connection Terminated (by Server)
+[Network Analyzer ( db4:2684)]   (Sid: 30) Connection Terminated (by Server)
+[Net An. Warning  ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( db4:10dc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( db4:10dc)] Address lookup for Luntik = 192.168.0.17
+[Network Analyzer ( db4:10dc)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 31)  PROXIED!
+[Network Analyzer ( db4:10dc)] Address lookup for Luntik = 192.168.0.17
+[Web Request      ( db4:2684)] "GET /cgi-bin/welcome.pl?signOff=1"   
+[Network Analyzer ( db4:2684)]   (Sid: 31) Client -> Server @ : 725 bytes (Service=HTTP)
+[Network Analyzer ( db4:10dc)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 32)  PROXIED!
+[Network Analyzer ( db4:2684)]   (Sid: 31) Server -> Client : 1021 bytes  (Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid: 31) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( db4:2684)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer ( db4:2684)]   (Sid: 31) Client -> Server @ : 609 bytes (Service=HTTP)
+[Web Request      ( db4:2684)] "GET /WebTours/home.html"   
+[Network Analyzer ( db4:2684)]   (Sid: 32) Client -> Server @ : 705 bytes (Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid: 32) Server -> Client : 194 bytes  (Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid: 31) Server -> Client : 1752 bytes  (Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid: 31) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer ( db4:2684)]   (Sid: 32) Connection Terminated (by Server)
+[Network Analyzer ( db4:2684)]   (Sid: 31) Connection Terminated (by Server)

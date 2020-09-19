@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Server: nginx/1.14.2
+Date: Thu, 17 Sep 2020 13:31:58 GMT
+Content-Type: application/javascript
+Content-Length: 108841
+Connection: keep-alive
+ETag: "5f632419-1a929"
+Content-Encoding: gzip
+Expires: Thu, 17 Sep 2020 14:31:58 GMT
+Cache-Control: max-age=3600
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=31536000
+Last-Modified: Thu, 17 Sep 2020 08:53:45 GMT
+

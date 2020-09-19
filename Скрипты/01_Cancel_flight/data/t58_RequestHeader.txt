@@ -1,0 +1,14 @@
+POST /watch/3/1?wmode=7&page-ref=https%3A%2F%2Fyandex.ru%2F%3Fwin%3D366%26clid%3D2256428-306&charset=utf-8&ut=noindex&browser-info=ti%3A10%3Afu%3A2%3Av%3A1956%3Arqnl%3A1%3Ast%3A1600349496%3Au%3A HTTP/1.1
+Accept: */*
+Content-Type: application/x-www-form-urlencoded
+Referer: https://yandex.ru/
+Accept-Language: ru-RU
+Origin: https://yandex.ru
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Host: mc.yandex.ru
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+Cookie: i=t4zyzh3as39zzLkI8sPU0fh5A6ndEy8jnBfniN8u3guDpI7b9pcbatVVrMQ1g+rEbtGaryu683JJEEmqfW5BgY/KNmA=; yandexuid=6753078661600349484; yp=1600608695.clh.2256428-306#1602941486.ygu.1; ys=mclid.2256428-306; mda=0; yandex_gid=213; my=YwA=
+

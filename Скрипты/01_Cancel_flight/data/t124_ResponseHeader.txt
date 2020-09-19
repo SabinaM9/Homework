@@ -1,0 +1,19 @@
+HTTP/1.1 200 OK
+Server: nginx/1.14.2
+Date: Thu, 17 Sep 2020 13:32:07 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Content-Encoding: gzip
+X-Plg: host=strm-plgo-production-25.vla.yp-c.yandex.net; version=7340363
+X-Request-Id: db25ed624bbaadbd
+X-Strm-Request-Id: db25ed624bbaadbd
+X_h: strm-mskm923.strm.yandex.net
+Access-Control-Allow-Origin: https://yandex.ru
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, Range, X-Strm-Session
+Access-Control-Expose-Headers: Date, X-Strm-Session
+Timing-Allow-Origin: https://yandex.ru
+Cache-Control: no-cache
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+

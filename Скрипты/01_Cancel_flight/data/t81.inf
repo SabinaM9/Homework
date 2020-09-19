@@ -1,0 +1,11 @@
+[t81]
+FileName1=t81.html
+URL1=https://zen.yandex.ru/api/v3/launcher/export-cached?key=61b6c1cc-961742134-4&clid=500&host=zen.yandex.ru&country_code=ru&tld=ru&rnd=1600349512681
+Total=1
+RequestHeaderFile=t81_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t81_ResponseHeader.txt
+ContentType=
+SnapshotXmlFile=snapshot_81.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

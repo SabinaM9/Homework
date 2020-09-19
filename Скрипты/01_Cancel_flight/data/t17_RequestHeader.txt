@@ -1,0 +1,9 @@
+GET /?win=366&clid=2256428-306 HTTP/1.1
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+Accept-Language: ru-RU
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: www.yandex.ru
+Connection: Keep-Alive
+Cookie: i=exAqLW5r4rmk3ow9QGeF8gx4p+zVQ0bkusuRB73MkIe1lhhLKMrXJxuosskrazmmRVucIlPUuLr04ERsfYs9wfrTG80=
+

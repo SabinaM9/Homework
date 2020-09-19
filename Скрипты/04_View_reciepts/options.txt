@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Сабина\Desktop\SCRIPTS_02\04_View_reciepts
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\сабина\desktop\scripts_02\04_view_reciepts\\logfile.log
+c:\users\сабина\desktop\scripts_02\04_view_reciepts\\combined_04_View_reciepts.c
+c:\users\сабина\desktop\scripts_02\04_view_reciepts\\pre_cci.c

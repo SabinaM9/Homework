@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Accept,Cookie,X-Zen-Comments-Token,X-Zen-Comments-Product,X-Zen-Comments-Partner,X-Zen-Comments-Integration,X-Zen-Comments-Clid,X-Zen-Comments-Place,X-Zen-Comments-Experiments,Zen-Features,Zen-Client-Experiments,Cache-Control,X-Csrf-Token
+Access-Control-Allow-Methods: POST, GET, OPTIONS, PUT
+Access-Control-Allow-Origin: https://yandex.ru
+Access-Control-Max-Age: 3600
+Content-Length: 0
+Content-Type: text/plain charset=UTF-8
+Date: Thu, 17 Sep 2020 13:31:58 GMT
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block;
+X-qloud-router: vla2-72b1f8cf8a1f.qloud-c.yandex.net
+

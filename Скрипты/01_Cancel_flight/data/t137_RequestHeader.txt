@@ -1,0 +1,10 @@
+GET /crx/blobs/QwAAAHF3InbmK-wFIemaY3I3BCO7Rlu1Xl_g6NfcjDF5BmhV8O-I6g5Iac-W8jJy-HRPBqobLybp5txveSdqm4QQlktAum-sdWDEMaB7HyYckS_5AMZSmuUYmL6cKig5tSqGI7yZpr6zsJv5gA/extension_4_21_0_0.crx HTTP/1.1
+Host: clients2.googleusercontent.com
+Connection: keep-alive
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+

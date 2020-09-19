@@ -1,0 +1,18 @@
+HTTP/1.1 200 OK
+Server: nginx/1.14.2
+Date: Thu, 17 Sep 2020 13:31:35 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 35
+Connection: keep-alive
+Set-Cookie: yandexuid=6753078661600349484; Expires=Sun, 15-Sep-2030 13:31:35 GMT; Domain=.yandex.ru; Path=/
+Set-Cookie: ymex=1915709495.yrts.1600349495; Expires=Fri, 17-Sep-2021 13:31:35 GMT; Domain=.yandex.ru; Path=/
+Last-Modified: Thu, 17-Sep-2020 13:31:35 GMT
+Expires: Thu, 17-Sep-2020 13:31:35 GMT
+Cache-Control: private, no-cache, no-store, must-revalidate, max-age=0
+Pragma: no-cache
+Access-Control-Allow-Origin: https://yandex.ru
+Access-Control-Allow-Credentials: true
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Strict-Transport-Security: max-age=31536000
+

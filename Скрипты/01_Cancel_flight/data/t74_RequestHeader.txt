@@ -1,0 +1,13 @@
+POST /clck/click HTTP/1.1
+Accept: */*
+Referer: https://yandex.ru/
+Accept-Language: ru-RU
+Content-Type: text/plain;charset=UTF-8
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Host: yandex.ru
+Content-Length: 3801
+Connection: Keep-Alive
+Cache-Control: no-cache
+Cookie: i=t4zyzh3as39zzLkI8sPU0fh5A6ndEy8jnBfniN8u3guDpI7b9pcbatVVrMQ1g+rEbtGaryu683JJEEmqfW5BgY/KNmA=; yandexuid=6753078661600349484; yp=1600608695.clh.2256428-306#1602941486.ygu.1; ys=mclid.2256428-306; mda=0; yandex_gid=213; font_loaded=YSv1; my=YwA=; ymex=1915709495.yrts.1600349495; yabs-frequency=/5/0000000000000000/7A0_ROO0000WFI40/
+

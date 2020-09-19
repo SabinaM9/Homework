@@ -1,0 +1,396 @@
+[API Trapper      ( 564:24ac)] Recording in 32-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[API Trapper      (21bc:1c48)] Recording in 32-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[API Trapper      (20cc: dbc)] Recording in 32-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[Network Analyzer (20cc:2688)] ------------------------------------------------------------------------------------------
+[Network Analyzer (20cc:2688)] Load Network Traffic Analyzers:
+[Network Analyzer (20cc:2688)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (20cc:2688)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer (20cc:2688)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (20cc:2688)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer (20cc:2688)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer.dll)
+[Network Analyzer (20cc:2688)]     + Network Analyzer: WebSocketAnalyzer.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (20cc:2688)] ------------------------------------------------------------------------------------------
+[API Trapper      (1c20:1bb8)] Recording in 32-bit mode: C:\WINDOWS\SysWOW64\cmd.exe
+[Network Analyzer (20cc: 898)] Address lookup for Luntik = 192.168.0.17
+[API Trapper      (24d8:1a94)] Recording in 32-bit mode: C:\Program Files (x86)\Adobe\Acrobat Reader DC\Reader\Browser\WCChromeExtn\WCChromeNativeMessagingHost.exe
+[Net An. Warning  (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (20cc:2688)] Address lookup for Luntik = 192.168.0.17
+[Network Analyzer (20cc:2688)] Request Connection: Remote Server @ 64.233.162.84:443   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (20cc:2688)] Address lookup for Luntik = 192.168.0.17
+[Network Analyzer (20cc:2688)] Request Connection: Remote Server @ 173.194.222.94:443   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (20cc:2688)] Address lookup for Luntik = 192.168.0.17
+[Network Analyzer (20cc:2994)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (20cc:2688)] Request Connection: Remote Server @ 52.74.162.152:443   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (20cc:2988)]   (Sid:  2) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (20cc:157c)]   (Sid:  3) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Warning  (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (20cc:2688)] Address lookup for Luntik = 192.168.0.17
+[Network Analyzer (20cc:2688)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (20cc:2994)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_CHACHA20_POLY1305_SHA256)
+[Network Analyzer (20cc:157c)]   (Sid:  3) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_CHACHA20_POLY1305_SHA256)
+[Network Analyzer (20cc:2988)]   (Sid:  2) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_CHACHA20_POLY1305_SHA256)
+[Network Analyzer (20cc:2688)] Address lookup for Luntik = 192.168.0.17
+[Web Request      (20cc: 898)] "POST /ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard"   
+[Network Analyzer (20cc: 898)]   (Sid:  1) Client -> Server @ : 855 bytes (SSL)(Service=HTTP)
+[Web Request      (20cc: 898)] "GET /chrome-variations/seed?osname=win&channel=stable&milestone=85"   
+[Network Analyzer (20cc: 898)]   (Sid:  2) Client -> Server @ : 444 bytes (SSL)(Service=HTTP)
+[Web Request      (20cc: 898)] "GET /b/ss/adbcreatepdfplugin.prod/1/JS-1.6/s54856994895629?AQB=1&ndh=1&pf=1&t=15%2F8%2F2020%2018%3A28%3A7%202%20-180&fid=01FC0AE2FC99440E-0A4AFC4189CBD131&ce=UTF-8&pageName=DCBrowserExt%3AShim%3AVersion%3AUnknown%3AOp&g=chrome-extension%3A%2F%2Fefaidnbmnnnibpcajpcglclefindmkaj%2F_generated_background_page.html&v1=15.1.2.2&v2=sideload&v3=prod&v4=not_set&s=1600x900&c=24&j=1.6&v=N&k=Y&bh=8&AQE=1"   
+[Network Analyzer (20cc: 898)]   (Sid:  3) Client -> Server @ : 859 bytes (SSL)(Service=HTTP)
+[Web Request      (20cc: 898)] "GET /WebTours/"   
+[Network Analyzer (20cc: 898)]   (Sid:  4) Client -> Server @ : 523 bytes (Service=HTTP)
+[Network Analyzer (20cc:2688)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer (20cc: 898)]   (Sid:  4) Server -> Client : 664 bytes  (Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid:  1) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid:  2) Server -> Client : 379 bytes (SSL) (Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid:  1) Server -> Client : 22 bytes (SSL) (Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid:  1) Server -> Client : 100 bytes (SSL) (Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid:  1) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Web Request      (20cc: 898)] "GET /WebTours/header.html"   
+[Network Analyzer (20cc: 898)]   (Sid:  4) Client -> Server @ : 560 bytes (Service=HTTP)
+[Web Request      (20cc: 898)] "GET /cgi-bin/welcome.pl?signOff=true"   
+[Network Analyzer (20cc: 898)]   (Sid:  5) Client -> Server @ : 571 bytes (Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid:  4) Server -> Client : 1007 bytes  (Service=HTTP)
+[Web Request      (20cc: 898)] "GET /WebTours/images/hp_logo.png"   
+[Network Analyzer (20cc: 898)]   (Sid:  4) Client -> Server @ : 462 bytes (Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid:  4) Server -> Client : 898 bytes  (Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid:  3) Server -> Client : 748 bytes (SSL) (Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid:  5) Server -> Client : 1021 bytes  (Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid:  5) Server -> Client : 5 bytes  (Service=HTTP)
+[Net An. Warning  (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (20cc: 898)]   (Sid:  4) Connection Terminated (by Server)
+[Network Analyzer (20cc: 898)]   (Sid:  5) Connection Terminated (by Server)
+[Net An. Warning  (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (20cc:2688)] Address lookup for Luntik = 192.168.0.17
+[Network Analyzer (20cc:2688)] Request Connection: Remote Server @ 52.74.162.152:443   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (20cc:2688)] Address lookup for Luntik = 192.168.0.17
+[Network Analyzer (20cc:2688)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  7)  PROXIED!
+[Web Request      (20cc: 898)] "GET /WebTours/images/webtours.png"   
+[Network Analyzer (20cc: 898)]   (Sid:  7) Client -> Server @ : 463 bytes (Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid:  7) Server -> Client : 4487 bytes  (Service=HTTP)
+[Network Analyzer (20cc: 26c)]   (Sid:  6) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Warning  (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (20cc: 898)]   (Sid:  2) Connection Terminated (by Client)
+[Network Analyzer (20cc: 898)]   (Sid:  1) Connection Terminated (by Client)
+[Network Analyzer (20cc: 898)]   (Sid:  3) Connection Terminated (by Client)
+[Net An. Warning  (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[API Trapper      (16a0:18e0)] Recording in 32-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[Network Analyzer (20cc: 898)]   (Sid:  7) Connection Terminated (by Server)
+[Net An. Warning  (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (20cc: 26c)]   (Sid:  6) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_CHACHA20_POLY1305_SHA256)
+[Net An. Warning  (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Web Request      (20cc: 898)] "GET /b/ss/adbcreatepdfplugin.prod/1/JS-1.6/s55437624581969?AQB=1&ndh=1&pf=1&t=15%2F8%2F2020%2018%3A28%3A8%202%20-180&fid=01FC0AE2FC99440E-0A4AFC4189CBD131&ce=UTF-8&pageName=DCBrowserExt%3AExtension%3AStartup%3AOp&g=chrome-extension%3A%2F%2Fefaidnbmnnnibpcajpcglclefindmkaj%2F_generated_background_page.html&v1=15.1.2.2&v2=sideload&v3=prod&v4=unknown&AQE=1"   
+[Network Analyzer (20cc: 898)]   (Sid:  6) Client -> Server @ : 819 bytes (SSL)(Service=HTTP)
+[Network Analyzer (20cc:2688)] Address lookup for Luntik = 192.168.0.17
+[Network Analyzer (20cc:2688)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer (20cc: 898)]   (Sid:  6) Server -> Client : 748 bytes (SSL) (Service=HTTP)
+[Web Request      (20cc: 898)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer (20cc:2688)] Address lookup for Luntik = 192.168.0.17
+[Network Analyzer (20cc: 898)]   (Sid:  8) Client -> Server @ : 612 bytes (Service=HTTP)
+[Network Analyzer (20cc:2688)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  9)  PROXIED!
+[Web Request      (20cc: 898)] "GET /b/ss/adbcreatepdfplugin.prod/1/JS-1.6/s53095610414890?AQB=1&ndh=1&pf=1&t=15%2F8%2F2020%2018%3A28%3A8%202%20-180&fid=01FC0AE2FC99440E-0A4AFC4189CBD131&ce=UTF-8&pageName=DCBrowserExt%3AShim%3AVersion%3A13.0%3AOp&g=chrome-extension%3A%2F%2Fefaidnbmnnnibpcajpcglclefindmkaj%2F_generated_background_page.html&v1=15.1.2.2&v2=sideload&v3=prod&v4=unknown&AQE=1"   
+[Network Analyzer (20cc: 898)]   (Sid:  6) Client -> Server @ : 821 bytes (SSL)(Service=HTTP)
+[Web Request      (20cc: 898)] "GET /WebTours/home.html"   
+[Network Analyzer (20cc: 898)]   (Sid:  9) Client -> Server @ : 608 bytes (Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid:  9) Server -> Client : 1660 bytes  (Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid:  8) Server -> Client : 1749 bytes  (Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid:  8) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (20cc: 898)] "GET /WebTours/images/mer_login.gif"   
+[Network Analyzer (20cc: 898)]   (Sid:  8) Client -> Server @ : 494 bytes (Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid:  8) Server -> Client : 976 bytes  (Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid:  6) Server -> Client : 748 bytes (SSL) (Service=HTTP)
+[Web Request      (20cc: 898)] "GET /b/ss/adbcreatepdfplugin.prod/1/JS-1.6/s59166194065709?AQB=1&ndh=1&pf=1&t=15%2F8%2F2020%2018%3A28%3A8%202%20-180&fid=01FC0AE2FC99440E-0A4AFC4189CBD131&ce=UTF-8&pageName=DCBrowserExt%3AOS%3Awin%3AOp&g=chrome-extension%3A%2F%2Fefaidnbmnnnibpcajpcglclefindmkaj%2F_generated_background_page.html&v1=15.1.2.2&v2=sideload&v3=prod&v4=13.0&AQE=1"   
+[Network Analyzer (20cc: 898)]   (Sid:  6) Client -> Server @ : 805 bytes (SSL)(Service=HTTP)
+[Network Analyzer (20cc:2688)] Address lookup for Luntik = 192.168.0.17
+[Network Analyzer (20cc:2688)] Request Connection: Remote Server @ 64.233.162.95:443   (Service=)  (Sid= 10)  PROXIED!
+[Web Request      (20cc: 898)] "GET /favicon.ico"   
+[Network Analyzer (20cc: 898)]   (Sid:  8) Client -> Server @ : 463 bytes (Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid:  8) Server -> Client : 424 bytes  (Service=HTTP)
+[Network Analyzer (20cc:2188)]   (Sid: 10) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (20cc:2188)]   (Sid: 10) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_CHACHA20_POLY1305_SHA256)
+[Network Analyzer (20cc: 898)]   (Sid:  6) Server -> Client : 748 bytes (SSL) (Service=HTTP)
+[Web Request      (20cc: 898)] "GET /v1/pages/Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRIfCU35IjnBRbgwEgkN541ADhIAGgASCQ3OQUx6EgAaAA==?alt=proto"   
+[Network Analyzer (20cc: 898)]   (Sid: 10) Client -> Server @ : 534 bytes (SSL)(Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid: 10) Server -> Client : 665 bytes (SSL) (Service=HTTP)
+[Network Analyzer (20cc:2688)] Address lookup for Luntik = 192.168.0.17
+[Network Analyzer (20cc:2688)] Request Connection: Remote Server @ 173.194.222.94:443   (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer (20cc:29e4)]   (Sid: 11) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (20cc:29e4)]   (Sid: 11) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_CHACHA20_POLY1305_SHA256)
+[Network Analyzer (20cc: 898)]   (Sid: 11) Client -> Server @ : 1157 bytes (SSL)(Service=HTTP)
+[Web Request      (20cc: 898)] "POST /service/update2/json?cup2key=10:3894083246&cup2hreq=3b93b5f6554e76212d9a2e53a1e27cbb9d7ed420b0c57177a10a95c22f367a1f"   
+[Network Analyzer (20cc: 898)]   (Sid: 11) Client -> Server @ : 5439 bytes (SSL)(Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid: 11) Server -> Client : 1326 bytes (SSL) (Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid: 11) Server -> Client : 612 bytes (SSL) (Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid: 11) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid:  9) Connection Terminated (by Server)
+[Network Analyzer (20cc: 898)]   (Sid:  8) Connection Terminated (by Server)
+[API Trapper      (213c:2bc0)] Recording in 32-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[API Trapper      (2b30:17f8)] Recording in 32-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[Network Analyzer (20cc: 898)]   (Sid: 10) Connection Terminated (by Client)
+[Network Analyzer (20cc: 898)]   (Sid:  6) Connection Terminated (by Client)
+[Network Analyzer (20cc: 898)]   (Sid: 11) Connection Terminated (by Client)
+[Net An. Warning  (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (20cc:2688)] Address lookup for Luntik = 192.168.0.17
+[Network Analyzer (20cc:2688)] Request Connection: Remote Server @ 173.194.222.94:443   (Service=)  (Sid= 12)  PROXIED!
+[Network Analyzer (20cc:2688)] Address lookup for Luntik = 192.168.0.17
+[Network Analyzer (20cc:2688)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 13)  PROXIED!
+[Network Analyzer (20cc:2688)] Address lookup for Luntik = 192.168.0.17
+[Web Request      (20cc: 898)] "POST /cgi-bin/login.pl"   
+[Network Analyzer (20cc: 898)]   (Sid: 13) Client -> Server @ : 864 bytes (Service=HTTP)
+[Network Analyzer (20cc:2688)] Request Connection: Remote Server @ 64.233.165.94:443   (Service=)  (Sid= 14)  PROXIED!
+[Network Analyzer (20cc: f64)]   (Sid: 12) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (20cc:1068)]   (Sid: 14) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (20cc: f64)]   (Sid: 12) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_CHACHA20_POLY1305_SHA256)
+[Network Analyzer (20cc:1068)]   (Sid: 14) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_CHACHA20_POLY1305_SHA256)
+[Network Analyzer (20cc: 898)]   (Sid: 13) Server -> Client : 847 bytes  (Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid: 12) Client -> Server @ : 579 bytes (SSL)(Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid: 13) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid: 14) Client -> Server @ : 1100 bytes (SSL)(Service=HTTP)
+[Web Request      (20cc: 898)] "POST /uma/v2"   
+[Network Analyzer (20cc: 898)]   (Sid: 12) Client -> Server @ : 1813 bytes (SSL)(Service=HTTP)
+[Web Request      (20cc: 898)] "POST /service/update2/json?cup2key=10:3205957605&cup2hreq=134e114eecb6b5b694134e41a3368719183c6e791f3517c6279f59741431e1d7"   
+[Network Analyzer (20cc: 898)]   (Sid: 14) Client -> Server @ : 5387 bytes (SSL)(Service=HTTP)
+[Network Analyzer (20cc:2688)] Address lookup for Luntik = 192.168.0.17
+[Network Analyzer (20cc:2688)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 15)  PROXIED!
+[Web Request      (20cc: 898)] "GET /cgi-bin/nav.pl?page=menu&in=home"   
+[Network Analyzer (20cc: 898)]   (Sid: 13) Client -> Server @ : 717 bytes (Service=HTTP)
+[Web Request      (20cc: 898)] "GET /cgi-bin/login.pl?intro=true"   
+[Network Analyzer (20cc: 898)]   (Sid: 15) Client -> Server @ : 712 bytes (Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid: 12) Server -> Client : 570 bytes (SSL) (Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid: 12) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid: 14) Server -> Client : 1326 bytes (SSL) (Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid: 14) Server -> Client : 1054 bytes (SSL) (Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid: 14) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid: 13) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid: 13) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid: 15) Server -> Client : 1154 bytes  (Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid: 15) Server -> Client : 5 bytes  (Service=HTTP)
+[Net An. Warning  (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (20cc: 898)]   (Sid: 13) Connection Terminated (by Server)
+[Network Analyzer (20cc: 898)]   (Sid: 15) Connection Terminated (by Server)
+[Net An. Warning  (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (20cc:2688)] Address lookup for Luntik = 192.168.0.17
+[Network Analyzer (20cc:2688)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 16)  PROXIED!
+[Web Request      (20cc: 898)] "POST /uma/v2"
+[Network Analyzer (20cc: 898)]   (Sid: 12) Client -> Server @ : 588 bytes (SSL)(Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid: 12) Client -> Server @ : 16384 bytes (SSL)(Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid: 12) Client -> Server @ : 13859 bytes (SSL)(Service=HTTP)
+[Network Analyzer (20cc:2688)] Address lookup for Luntik = 192.168.0.17
+[Network Analyzer (20cc:2688)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 17)  PROXIED!
+[Network Analyzer (20cc:2688)] Address lookup for Luntik = 192.168.0.17
+[Network Analyzer (20cc:2688)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 18)  PROXIED!
+[Web Request      (20cc: 898)] "GET /WebTours/images/flights.gif"   
+[Network Analyzer (20cc: 898)]   (Sid: 16) Client -> Server @ : 612 bytes (Service=HTTP)
+[Web Request      (20cc: 898)] "GET /WebTours/images/in_home.gif"   
+[Network Analyzer (20cc: 898)]   (Sid: 17) Client -> Server @ : 612 bytes (Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid: 16) Server -> Client : 1024 bytes  (Service=HTTP)
+[Web Request      (20cc: 898)] "GET /WebTours/images/signoff.gif"   
+[Network Analyzer (20cc: 898)]   (Sid: 18) Client -> Server @ : 612 bytes (Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid: 12) Server -> Client : 778 bytes (SSL) (Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid: 17) Server -> Client : 986 bytes  (Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid: 12) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid: 18) Server -> Client : 1049 bytes  (Service=HTTP)
+[Web Request      (20cc: 898)] "GET /WebTours/images/itinerary.gif"   
+[Network Analyzer (20cc: 898)]   (Sid: 16) Client -> Server @ : 614 bytes (Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid: 16) Server -> Client : 1030 bytes  (Service=HTTP)
+[Network Analyzer (20cc:2688)] Address lookup for Luntik = 192.168.0.17
+[Network Analyzer (20cc:2688)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 19)  PROXIED!
+[Network Analyzer (20cc: 898)]   (Sid: 14) Connection Terminated (by Client)
+[Network Analyzer (20cc: 898)]   (Sid: 12) Client -> Server @ : 587 bytes (SSL)(Service=HTTP)
+[Web Request      (20cc: 898)] "POST /uma/v2"   
+[Network Analyzer (20cc: 898)]   (Sid: 12) Client -> Server @ : 2016 bytes (SSL)(Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid: 12) Server -> Client : 546 bytes (SSL) (Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid: 12) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid: 17) Connection Terminated (by Server)
+[Network Analyzer (20cc: 898)]   (Sid: 18) Connection Terminated (by Server)
+[Network Analyzer (20cc: 898)]   (Sid: 16) Connection Terminated (by Server)
+[Network Analyzer (20cc: 898)]   (Sid: 12) Client -> Server @ : 587 bytes (SSL)(Service=HTTP)
+[Web Request      (20cc: 898)] "POST /uma/v2"   
+[Network Analyzer (20cc: 898)]   (Sid: 12) Client -> Server @ : 6537 bytes (SSL)(Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid: 12) Server -> Client : 789 bytes (SSL) (Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid: 12) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid: 19) Connection Terminated (by Client)
+[Network Analyzer (20cc: 898)]   (Sid: 12) Connection Terminated (by Client)
+[Net An. Warning  (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (20cc:2688)] Address lookup for Luntik = 192.168.0.17
+[Network Analyzer (20cc:2688)] Request Connection: Remote Server @ 64.233.165.94:443   (Service=)  (Sid= 20)  PROXIED!
+[Network Analyzer (20cc: efc)]   (Sid: 20) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Warning  (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (20cc: efc)]   (Sid: 20) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_CHACHA20_POLY1305_SHA256)
+[Network Analyzer (20cc:2688)] Address lookup for Luntik = 192.168.0.17
+[Network Analyzer (20cc:2688)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 21)  PROXIED!
+[Web Request      (20cc: 898)] "POST /service/update2/json"   
+[Network Analyzer (20cc: 898)]   (Sid: 20) Client -> Server @ : 1370 bytes (SSL)(Service=HTTP)
+[Web Request      (20cc: 898)] "GET /cgi-bin/welcome.pl?page=search"   
+[Network Analyzer (20cc: 898)]   (Sid: 21) Client -> Server @ : 751 bytes (Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid: 20) Server -> Client : 874 bytes (SSL) (Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid: 20) Server -> Client : 301 bytes (SSL) (Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid: 20) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid: 21) Server -> Client : 839 bytes  (Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid: 21) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (20cc: 898)] "GET /cgi-bin/nav.pl?page=menu&in=flights"   
+[Network Analyzer (20cc: 898)]   (Sid: 21) Client -> Server @ : 734 bytes (Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid: 21) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid: 21) Server -> Client : 5 bytes  (Service=HTTP)
+[Net An. Warning  (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[API Trapper      (2514:29f0)] Recording in 32-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[Net An. Warning  (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (20cc: 898)]   (Sid: 21) Connection Terminated (by Server)
+[Net An. Warning  (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (20cc:2688)] Address lookup for Luntik = 192.168.0.17
+[Network Analyzer (20cc:2688)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 22)  PROXIED!
+[Web Request      (20cc: 898)] "GET /cgi-bin/reservations.pl?page=welcome"   
+[Network Analyzer (20cc: 898)]   (Sid: 22) Client -> Server @ : 735 bytes (Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid: 22) Server -> Client : 4235 bytes  (Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid: 22) Server -> Client : 286 bytes  (Service=HTTP)
+[Net An. Warning  (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (20cc: 898)]   (Sid: 22) Connection Terminated (by Server)
+[Network Analyzer (20cc:2688)] Address lookup for Luntik = 192.168.0.17
+[Network Analyzer (20cc:2688)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 23)  PROXIED!
+[Net An. Warning  (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Web Request      (20cc: 898)] "GET /WebTours/images/in_flights.gif"   
+[Network Analyzer (20cc: 898)]   (Sid: 23) Client -> Server @ : 618 bytes (Service=HTTP)
+[Network Analyzer (20cc:2688)] Address lookup for Luntik = 192.168.0.17
+[Network Analyzer (20cc: 898)]   (Sid: 23) Server -> Client : 1024 bytes  (Service=HTTP)
+[Network Analyzer (20cc:2688)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 24)  PROXIED!
+[Web Request      (20cc: 898)] "GET /WebTours/images/home.gif"   
+[Network Analyzer (20cc: 898)]   (Sid: 24) Client -> Server @ : 612 bytes (Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid: 24) Server -> Client : 986 bytes  (Service=HTTP)
+[Web Request      (20cc: 898)] "GET /WebTours/images/button_next.gif"   
+[Network Analyzer (20cc: 898)]   (Sid: 23) Client -> Server @ : 620 bytes (Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid: 23) Server -> Client : 1055 bytes  (Service=HTTP)
+[Network Analyzer (20cc:2688)] Address lookup for Luntik = 192.168.0.17
+[Network Analyzer (20cc:2688)] Request Connection: Remote Server @ 173.194.73.95:443   (Service=)  (Sid= 25)  PROXIED!
+[Network Analyzer (20cc: d38)]   (Sid: 25) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (20cc:2688)] Address lookup for Luntik = 192.168.0.17
+[Network Analyzer (20cc:2688)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 26)  PROXIED!
+[Network Analyzer (20cc: d38)]   (Sid: 25) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_CHACHA20_POLY1305_SHA256)
+[Web Request      (20cc: 898)] "GET /v1/pages/Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRJACUFCU6JtyxUKEgkNVGIprRIAGgASCQ17ncSlEgAaABIJDR87OYUSABoAEgkN2oWZYRIAGgASCQ2pjkq9EgAaAA==?alt=proto"   
+[Network Analyzer (20cc: 898)]   (Sid: 25) Client -> Server @ : 578 bytes (SSL)(Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid: 25) Server -> Client : 688 bytes (SSL) (Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid: 20) Connection Terminated (by Client)
+[Network Analyzer (20cc: 898)]   (Sid: 24) Connection Terminated (by Server)
+[Network Analyzer (20cc: 898)]   (Sid: 23) Connection Terminated (by Server)
+[Network Analyzer (20cc: 898)]   (Sid: 26) Connection Terminated (by Client)
+[Network Analyzer (20cc: 898)]   (Sid: 25) Connection Terminated (by Client)
+[Net An. Warning  (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (20cc:2688)] Address lookup for Luntik = 192.168.0.17
+[Network Analyzer (20cc:2688)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 27)  PROXIED!
+[Network Analyzer (20cc:2688)] Address lookup for Luntik = 192.168.0.17
+[Web Request      (20cc: 898)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer (20cc: 898)]   (Sid: 27) Client -> Server @ : 1116 bytes (Service=HTTP)
+[Network Analyzer (20cc:2688)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 28)  PROXIED!
+[Network Analyzer (20cc: 898)]   (Sid: 27) Server -> Client : 2702 bytes  (Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid: 27) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid: 28) Connection Terminated (by Client)
+[Network Analyzer (20cc: 898)]   (Sid: 27) Connection Terminated (by Client)
+[Net An. Warning  (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (20cc:2688)] Address lookup for Luntik = 192.168.0.17
+[Network Analyzer (20cc:2688)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 29)  PROXIED!
+[Network Analyzer (20cc:2688)] Address lookup for Luntik = 192.168.0.17
+[Web Request      (20cc: 898)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer (20cc: 898)]   (Sid: 29) Client -> Server @ : 1011 bytes (Service=HTTP)
+[Network Analyzer (20cc:2688)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 30)  PROXIED!
+[Network Analyzer (20cc: 898)]   (Sid: 29) Server -> Client : 2966 bytes  (Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid: 29) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (20cc:2688)] Address lookup for Luntik = 192.168.0.17
+[Network Analyzer (20cc:2688)] Request Connection: Remote Server @ 173.194.73.95:443   (Service=)  (Sid= 31)  PROXIED!
+[Network Analyzer (20cc:24e4)]   (Sid: 31) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (20cc:24e4)]   (Sid: 31) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_CHACHA20_POLY1305_SHA256)
+[Web Request      (20cc: 898)] "GET /v1/pages/Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRJWCTnKWcjO4LgAEgkNa2iabhIAGgASCQ1Pnif4EgAaABIJDWOTJ4cSABoAEgkNolm4SRIAGgASCQ34tP6gEgAaABIJDVdoLJkSABoAEgkNbfpmyRIAGgA=?alt=proto"   
+[Network Analyzer (20cc: 898)]   (Sid: 31) Client -> Server @ : 606 bytes (SSL)(Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid: 31) Server -> Client : 714 bytes (SSL) (Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid: 29) Connection Terminated (by Server)
+[Network Analyzer (20cc: 898)]   (Sid: 30) Connection Terminated (by Client)
+[Network Analyzer (20cc: 898)]   (Sid: 31) Connection Terminated (by Client)
+[Net An. Warning  (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (20cc:2688)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (20cc:2688)] Address lookup for Luntik = 192.168.0.17
+[Network Analyzer (20cc:2688)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 32)  PROXIED!
+[Network Analyzer (20cc:2688)] Address lookup for Luntik = 192.168.0.17
+[Web Request      (20cc: 898)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer (20cc: 898)]   (Sid: 32) Client -> Server @ : 1188 bytes (Service=HTTP)
+[Network Analyzer (20cc:2688)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 33)  PROXIED!
+[Network Analyzer (20cc: 898)]   (Sid: 32) Server -> Client : 2845 bytes  (Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid: 32) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (20cc: 898)] "GET /WebTours/images/bookanother.gif"   
+[Network Analyzer (20cc: 898)]   (Sid: 32) Client -> Server @ : 583 bytes (Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid: 32) Server -> Client : 1103 bytes  (Service=HTTP)
+[Web Request      (20cc: 898)] "GET /cgi-bin/welcome.pl?signOff=1"   
+[Network Analyzer (20cc: 898)]   (Sid: 32) Client -> Server @ : 728 bytes (Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid: 32) Server -> Client : 1020 bytes  (Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid: 32) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (20cc: 898)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer (20cc: 898)]   (Sid: 32) Client -> Server @ : 609 bytes (Service=HTTP)
+[Web Request      (20cc: 898)] "GET /WebTours/home.html"   
+[Network Analyzer (20cc: 898)]   (Sid: 33) Client -> Server @ : 705 bytes (Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid: 33) Server -> Client : 194 bytes  (Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid: 32) Server -> Client : 1743 bytes  (Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid: 32) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (20cc: 898)]   (Sid: 32) Connection Terminated (by Client)
+[Network Analyzer (20cc: 898)]   (Sid: 33) Connection Terminated (by Client)
