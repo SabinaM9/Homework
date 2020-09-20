@@ -1,0 +1,12 @@
+[t94]
+FileName1=t84.gif
+URL1=https://mc.yandex.ru/watch/722545?page-url=https%3A%2F%2Fyandex.ru%2F&charset=utf-8&ut=noindex&browser-info=ti%3A7%3Aj%3A1%3Ans%3A1600349487383%3As%3A1600x900x24%3Ask%3A1%3Aadb%3A2%3Af%3A32.0.0.387%3Afpr%3A234456197601%3Acn%3A1%3Aw%3A1583x752%3Az%3A180%3Ai%3A20200917163152%3Aet%3A1600349513%3Aen%3Autf-8%3Ac%3A1%3Ala%3Aru-ru%3Aar%3A1%3Anb%3A1%3Acl%3A871%3Als%3A1578407348663%3Arqn%3A2%3Arn%3A1035832999%3Ahid%3A189651919%3Ads%3A%2C%2C%2C%2C%2C%2C%2C%2C%2C%2C%2C%2C%3Agdpr%3A8-0%3Av%3A1956%3Arqnl%3A1%3Ast%3A1600349513%3Au%3A1600349499578364214
+Total=1
+FrameIndex1=0
+UseFrameIndex=1
+SnapshotXmlFile=snapshot_94.xml
+RequestHeaderFile=t94_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t94_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

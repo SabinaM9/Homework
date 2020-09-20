@@ -1,0 +1,10 @@
+[t101]
+FileName1=t100.html
+URL1=https://zen.yandex.ru/api/comments/comment-count?from_person=&clid=500&country_code=ru&lang=ru&exclude_experiments=&_csrf=4f3dfb63b0808475b53cf66d58960dd07cfcd1a2-1600349486417-0-6753078661600349484%3A0&experiment=&telemetry=&client_exps=zen_lib_rtb%3Aexp%2Czen_comments%3Aexp%2Czen_inserts_edadeal%3Aexp%2Czen_inserts_geo_collections%3Aexp%2Czen_inserts_stream%3Aexp%2Czen_inserts_cashback%3Aexp%2Czen_ad_layout%3Aexp%2Czen_cache%3Aexp%2Czen_context_new%3Aexp%2Czen_cache_static%3Aexp%2Czen_ssr%3Aexp
+Total=1
+SnapshotXmlFile=snapshot_101.xml
+RequestHeaderFile=t101_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t101_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

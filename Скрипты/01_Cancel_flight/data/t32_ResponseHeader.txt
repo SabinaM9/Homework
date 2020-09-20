@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Thu, 17 Sep 2020 13:31:32 GMT
+Content-Type: image/jpeg
+Content-Length: 6141
+Connection: keep-alive
+Keep-Alive: timeout=60
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Last-Modified: Thu, 07 Nov 2019 16:05:35 GMT
+Cache-Control: max-age=172800,immutable
+X-Request-Id: f89d4c132d399e4c
+Timing-Allow-Origin: *
+

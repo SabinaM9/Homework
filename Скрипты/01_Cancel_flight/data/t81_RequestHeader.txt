@@ -1,0 +1,12 @@
+OPTIONS /api/v3/launcher/export-cached?key=61b6c1cc-961742134-4&clid=500&host=zen.yandex.ru&country_code=ru&tld=ru&rnd=1600349512681 HTTP/1.1
+Accept: */*
+Origin: https://yandex.ru
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: zen-client-experiments, x-zenlib-version, zen-features, zen-request-id
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Host: zen.yandex.ru
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+

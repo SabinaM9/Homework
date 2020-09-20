@@ -1,0 +1,9 @@
+GET /get-yapic/49368/enc-713ea9580cc51b2a2d7606c1bd3020740917e79c10d49457a628f481fc76d7bc/islands-200 HTTP/1.1
+Accept: image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5
+Referer: https://yandex.ru/
+Accept-Language: ru-RU
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: avatars.mds.yandex.net
+Connection: Keep-Alive
+

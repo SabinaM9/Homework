@@ -1,0 +1,11 @@
+[t58]
+FileName1=t58.json
+URL1=https://mc.yandex.ru/watch/3/1?wmode=7&page-ref=https%3A%2F%2Fyandex.ru%2F%3Fwin%3D366%26clid%3D2256428-306&charset=utf-8&ut=noindex&browser-info=ti%3A10%3Afu%3A2%3Av%3A1956%3Arqnl%3A1%3Ast%3A1600349496%3Au%3A
+Total=1
+RequestHeaderFile=t58_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t58_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_58.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

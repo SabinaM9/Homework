@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Сабина\Desktop\forGITHUB\Скрипты\05_Login_ang_logout
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ec:\users\сабина\desktop\forgithub\скрипты\05_login_ang_logout\\logfile.log
+c:\users\сабина\desktop\forgithub\скрипты\05_login_ang_logout\\combined_05_Login_ang_logout.c
+c:\users\сабина\desktop\forgithub\скрипты\05_login_ang_logout\\pre_cci.c

@@ -1,0 +1,18 @@
+HTTP/1.1 200 OK
+Content-Encoding: gzip
+Age: 979
+Cache-Control: max-age=21600
+Content-MD5: 2aD6rryejSc+gXbSKuBNyw==
+Content-Type: text/xml
+Date: Thu, 17 Sep 2020 13:31:50 GMT
+Etag: 0x8D8278CD55BA738
+Last-Modified: Tue, 14 Jul 2020 00:28:30 GMT
+Server: ECAcc (ska/F6E5)
+Vary: Accept-Encoding
+X-Cache: HIT
+x-ms-blob-type: BlockBlob
+x-ms-lease-status: unlocked
+x-ms-request-id: 65546481-601e-009b-7ef4-8c603a000000
+x-ms-version: 2009-09-19
+Content-Length: 25909
+

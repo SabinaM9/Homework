@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: zen-client-experiments, x-zenlib-version, zen-features, zen-request-id, authorization, content-type
+Access-Control-Allow-Methods: POST, GET, OPTIONS
+Access-Control-Allow-Origin: https://yandex.ru
+Access-Control-Max-Age: 86400
+Cache-Control: no-cache, max-age=0, must-revalidate, no-store
+Date: Thu, 17 Sep 2020 13:31:52 GMT
+Pragma: no-cache
+Transfer-Encoding: chunked
+X-Content-Type-Options: nosniff
+X-Requestid: 624496976.469.1600349512902.13125
+X-XSS-Protection: 1; mode=block
+X-qloud-router: iva4-719961219447.qloud-c.yandex.net
+

@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Сабина\Desktop\forGITHUB\Скрипты\02_BuyTicket
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ec:\users\сабина\desktop\forgithub\скрипты\02_buyticket\\logfile.log
+c:\users\сабина\desktop\forgithub\скрипты\02_buyticket\\combined_02_BuyTicket.c
+c:\users\сабина\desktop\forgithub\скрипты\02_buyticket\\pre_cci.c

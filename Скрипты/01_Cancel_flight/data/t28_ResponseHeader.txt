@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Thu, 17 Sep 2020 13:31:31 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Content-Security-Policy: default-src 'self' awaps.yandex.net  mc.yandex.ru an.yandex.ru st.yandexadexchange.net data: blob:; style-src 'self' awaps.yandex.net 'unsafe-inline'; script-src 'self' awaps.yandex.net  'unsafe-inline' 'unsafe-eval' data: ; media-src 'self' awaps.yandex.net storage.mds.yandex.net streaming.video.yandex.ru strm.yandex.ru; img-src 'self' data: awaps.yandex.net storage.mds.yandex.net pixel.adlooxtracking.com rgi.io; report-uri https://awaps.yandex.net/22/c1/ta1xi1ZlX4WZkNvr6hSMqr20pSa9pfrNFOJRIRWkFJO6d7pYbCCWuStl8G8Ip_tCQbo5D5cbEywSJi0Bd3Drm3D5A+0WE-rTYoRPTAxAeU8SJzjrqspr-Nsr40F_tE9T23C-l41NutOT8-ekYY612tYL6Qh4Dpfio4lHb25Db-8rluD1v2YbymYfi_tRpXLS2iKAXL2Ztl5N-LmjzCMQshqLtUYMtoVItGvBwsHPYR5dU8Y0Vn5wJ1K_tcOrskT1JjEWp1MuR7LLTcCi7dZXH0KFpkvONmFmusD+gYRIxSf8b3edVJQYW_XSPR1IY4zZKeSOw6AFZF9aA7PImgaIacA_A_.txt;
+Cache-Control: no-cache, no-store, must-revalidate, max-age=5
+P3P: CP="NOI DEVa TAIa OUR BUS UNI STA"
+X-Content-Type-Options: nosniff
+Content-Encoding: gzip
+

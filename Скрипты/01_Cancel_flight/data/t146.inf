@@ -1,0 +1,11 @@
+[t146]
+FileName1=t146.html
+URL1=http://localhost:1080/cgi-bin/itinerary.pl
+Total=1
+RequestHeaderFile=t146_RequestHeader.txt
+RequestBodyFile=t146_RequestBody.txt
+ResponseHeaderFile=t146_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_146.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,4 +1,0 @@
-"firstName=Samantha&lastName=Chu&address1=Fergusson+st.%2C+553&address2=Forks&pass1=Samantha+Ch"
-"u&creditCard=1136587902102132&expDate=08%2F23&oldCCOption=&numPassengers=1&seatType=Business&s"
-"eatPref=None&outboundFlight=372%3B239%3B12%2F10%2F2020&advanceDiscount=0&returnFlight=&JSFormS"
-"ubmit=off&buyFlights.x=32&buyFlights.y=11&.cgifields=saveCC"

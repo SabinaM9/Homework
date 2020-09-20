@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Server: nginx/1.12.2
+Date: Thu, 17 Sep 2020 13:32:00 GMT
+Content-Type: text/javascript
+Content-Length: 18917
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Cache-Control: public, max-age=216013
+Content-Encoding: gzip
+Etag: "765d58900c39048de0720f95be059cef"
+Expires: Sat, 19 Sep 2020 22:03:19 GMT
+Last-Modified: Thu, 10 Sep 2020 09:38:00 GMT
+NEL: {"report_to": "network-errors", "max_age": 600, "success_fraction": 0.001, "failure_fraction": 0.01}
+Report-To: { "group": "network-errors", "max_age": 600, "endpoints": [ { "url": "https://dr.yandex.net/nel"}]}
+Strict-Transport-Security: max-age=43200000; includeSubDomains;
+Timing-Allow-Origin: *
+Vary: Accept-Encoding
+X-Robots-Tag: noindex, noarchive, nofollow
+Strict-Transport-Security: max-age=31536000
+Accept-Ranges: bytes
+

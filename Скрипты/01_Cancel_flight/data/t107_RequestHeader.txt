@@ -1,0 +1,9 @@
+GET /ddm/trackimp/N250204.286831YANDEX/B24551670.279546900;dc_trk_aid=475852521;dc_trk_cid=137411772;ord=1756534554;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=?https://www.tns-counter.ru/V13a****adwatch_ru/ru/UTF-8/tmsec=adwatch_cid1053488-posid1751017/ HTTP/1.1
+Accept: image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5
+Referer: https://yandex.ru/
+Accept-Language: ru-RU
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: ad.doubleclick.net
+Connection: Keep-Alive
+

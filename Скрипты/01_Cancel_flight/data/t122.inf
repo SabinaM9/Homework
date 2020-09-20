@@ -1,0 +1,10 @@
+[t122]
+FileName1=t121.json
+URL1=https://zen.yandex.ru/api/v3/launcher/stats/bulk?_csrf=4f3dfb63b0808475b53cf66d58960dd07cfcd1a2-1600349486417-0-6753078661600349484%3A0&from_person=&secdata2=CAcSDDI3LjEuNTM4YmU3ZhgCIAAoADAAOABAA0gE&use_us=1&clid=500&country_code=ru&lang=ru&exclude_experiments=&experiment=&telemetry=&client_exps=zen_lib_rtb%3Aexp%2Czen_comments%3Aexp%2Czen_inserts_edadeal%3Aexp%2Czen_inserts_geo_collections%3Aexp%2Czen_inserts_stream%3Aexp%2Czen_inserts_cashback%3Aexp%2Czen_ad_layout%3Aexp%2Czen_cache%3Aexp%2Czen_context_new%3Aexp%2Czen_cache_static%3Aexp%2Czen_ssr%3Aexp
+Total=1
+SnapshotXmlFile=snapshot_122.xml
+RequestHeaderFile=t122_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t122_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

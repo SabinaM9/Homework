@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Server: nginx/1.17.9
+Date: Thu, 17 Sep 2020 13:31:32 GMT
+Content-Type: image/svg+xml
+Transfer-Encoding: chunked
+Connection: keep-alive
+Keep-Alive: timeout=5
+Access-Control-Allow-Origin: *
+Cache-Control: public, max-age=31556952
+Content-Encoding: gzip
+Etag: W/"d851f0a0fb854eda00b390e47df39dcb"
+Expires: Fri, 17 Sep 2021 19:19:23 GMT
+Last-Modified: Mon, 30 Mar 2020 19:19:52 GMT
+NEL: {"report_to": "network-errors", "max_age": 600, "success_fraction": 0.001, "failure_fraction": 0.01}
+Report-To: { "group": "network-errors", "max_age": 600, "endpoints": [ { "url": "https://dr.yandex.net/nel"}]}
+Strict-Transport-Security: max-age=43200000; includeSubDomains;
+Timing-Allow-Origin: *
+Vary: Accept-Encoding
+X-Amz-Meta-Owner: {"role":"owner","login":"nufina"}
+X-Nginx-Request-Id: 9c666ce6d064a2c8
+

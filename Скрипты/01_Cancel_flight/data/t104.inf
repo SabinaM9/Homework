@@ -1,0 +1,11 @@
+[t104]
+FileName1=t104_data.json
+URL1=https://yandex.ru/set/s/rsya-tag-users/data?referrer=https%3A%2F%2Fyandex.ru%2F
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_104.xml
+RequestHeaderFile=t104_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t104_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

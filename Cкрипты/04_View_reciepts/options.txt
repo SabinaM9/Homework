@@ -1,9 +1,0 @@
--+
--DCCI
--D_IDA_XL
--DWINNT
--IC:\Users\Сабина\Desktop\SCRIPTS_02\Скрипты\04_View_reciepts
--IC:\Program Files (x86)\HPE\LoadRunner\include
--ec:\users\сабина\desktop\scripts_02\скрипты\04_view_reciepts\\logfile.log
-c:\users\сабина\desktop\scripts_02\скрипты\04_view_reciepts\\combined_04_View_reciepts.c
-c:\users\сабина\desktop\scripts_02\скрипты\04_view_reciepts\\pre_cci.c

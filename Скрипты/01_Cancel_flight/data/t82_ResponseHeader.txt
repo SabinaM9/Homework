@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: authorization, content-type
+Access-Control-Allow-Methods: POST, GET, OPTIONS
+Access-Control-Allow-Origin: https://yandex.ru
+Access-Control-Max-Age: 86400
+Cache-Control: no-cache, max-age=0, must-revalidate, no-store
+Content-Encoding: gzip
+Content-Type: application/json; charset=utf-8
+Date: Thu, 17 Sep 2020 13:31:53 GMT
+Pragma: no-cache
+Transfer-Encoding: chunked
+X-Content-Type-Options: nosniff
+X-Requestid: 3695340001.489.1600349513045.58441
+X-XSS-Protection: 1; mode=block
+X-qloud-router: myt5-40466da561b8.qloud-c.yandex.net
+

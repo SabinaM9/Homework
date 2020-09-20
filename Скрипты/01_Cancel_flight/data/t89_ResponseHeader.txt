@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Thu, 17 Sep 2020 13:31:55 GMT
+Content-Type: image/gif
+Content-Length: 43
+Connection: keep-alive
+Cache-Control: no-cache, no-store, must-revalidate, max-age=5
+P3P: CP="NOI DEVa TAIa OUR BUS UNI STA"
+X-Content-Type-Options: nosniff
+Accept-Ranges: bytes
+
