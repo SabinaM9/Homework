@@ -1,3 +1,0 @@
-"flightID=13-0-MR&flightID=242-1-OD&flightID=45-2-JJ&flightID=205643376-3088-CF&flightID=4458-3"
-"875-%0D%0A&flightID=4458-4645-%0D%0A&removeAllFlights.x=63&removeAllFlights.y=10&.cgifields=6&"
-".cgifields=4&.cgifields=1&.cgifields=3&.cgifields=2&.cgifields=5"

@@ -1,4 +1,0 @@
-"flightID=2685572-804-JK&flightID=2671856-1548-JK&flightID=287833720-2343-KD&4=on&flightID=2878"
-"31539-3119-KD&flightID=287848272-3872-KD&flightID=287840492-46-KD&flightID=287820006-5398-KD&."
-"cgifields=6&.cgifields=4&.cgifields=1&.cgifields=3&.cgifields=7&.cgifields=2&.cgifields=5&remo"
-"veFlights.x=61&removeFlights.y=6"

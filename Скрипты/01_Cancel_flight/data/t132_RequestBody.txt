@@ -1,4 +1,0 @@
-"firstName=JON&lastName=BONJOVI&address1=LENINA&address2=MOSCOW&pass1=+1&creditCard=65233563231"
-"651&expDate=07%2F21&oldCCOption=&numPassengers=1&seatType=Business&seatPref=Window&outboundFli"
-"ght=232%3B1060%3B09%2F18%2F2020&advanceDiscount=0&returnFlight=&JSFormSubmit=off&buyFlights.x="
-"54&buyFlights.y=0&.cgifields=saveCC"

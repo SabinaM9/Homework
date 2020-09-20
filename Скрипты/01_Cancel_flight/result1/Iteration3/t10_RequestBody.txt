@@ -1,4 +1,0 @@
-"flightID=2695585-830-JK&flightID=13150381-1561-MR&flightID=119-2-SI&flightID=242-3-OD&flightID"
-"=13-3-MR&flightID=242341996-4685-OD&7=on&flightID=78053726-5432-OK&flightID=780659302-61627-OK"
-"&.cgifields=6&.cgifields=3&.cgifields=7&.cgifields=2&.cgifields=8&.cgifields=1&.cgifields=4&.c"
-"gifields=5&removeFlights.x=61&removeFlights.y=6"

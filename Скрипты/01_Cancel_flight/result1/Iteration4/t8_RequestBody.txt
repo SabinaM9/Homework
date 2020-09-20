@@ -1,4 +1,0 @@
-"firstName=Semen&lastName=Ivanov&address1=Nizhegorodskaya+st.%2C+12&address2=Moscow&pass1=Semen"
-"+Ivanov&creditCard=5236412596853214&expDate=03%2F21&oldCCOption=&numPassengers=1&seatType=Coac"
-"h&seatPref=Window&outboundFlight=452%3B587%3B05%2F05%2F2020&advanceDiscount=0&returnFlight=&JS"
-"FormSubmit=off&buyFlights.x=32&buyFlights.y=11&.cgifields=saveCC"

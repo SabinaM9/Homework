@@ -1,9 +1,0 @@
-HTTP/1.0 200 Ok
-Cache-Control: no-cache
-Connection: Keep-Alive
-Content-Length: 43
-Content-Type: image/gif
-NEL: {"report_to": "network-errors", "max_age": 86400, "success_fraction": 0.001, "failure_fraction": 0.1}
-Report-To: { "group": "network-errors", "max_age": 86400, "endpoints": [ { "url": "https://dr.yandex.net/nel"}]}
-X-Content-Type-Options: nosniff
-

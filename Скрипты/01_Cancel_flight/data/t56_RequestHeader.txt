@@ -1,9 +1,0 @@
-GET /s3/home-static/_/s/_/ZcQKkS0U6rxo560H5a_XEfePg.css HTTP/1.1
-Accept: text/css, */*
-Referer: https://yandex.ru/
-Accept-Language: ru-RU
-User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
-Accept-Encoding: gzip, deflate
-Host: yastatic.net
-Connection: Keep-Alive
-
