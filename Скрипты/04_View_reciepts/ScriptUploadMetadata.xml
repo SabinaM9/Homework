@@ -18,17 +18,24 @@
     <FileEntry Name="04_View_reciepts.c.pickle" Filter="1" />
     <FileEntry Name="04_View_reciepts.ci" Filter="1" />
     <FileEntry Name="04_View_reciepts.prm.bak" Filter="1" />
+    <FileEntry Name="04_View_reciepts.sdf" Filter="1" />
+    <FileEntry Name="119653391440.idx" Filter="1" />
     <FileEntry Name="121098558440.idx" Filter="1" />
     <FileEntry Name="131273218440.idx" Filter="1" />
     <FileEntry Name="159688775440.idx" Filter="1" />
     <FileEntry Name="187835933440.idx" Filter="1" />
     <FileEntry Name="210765928440.idx" Filter="1" />
+    <FileEntry Name="219352793440.idx" Filter="1" />
     <FileEntry Name="225022000440.idx" Filter="1" />
     <FileEntry Name="226312074440.idx" Filter="1" />
     <FileEntry Name="252635029440.idx" Filter="1" />
     <FileEntry Name="35960125440.idx" Filter="1" />
+    <FileEntry Name="37588862440.idx" Filter="1" />
     <FileEntry Name="47739153440.idx" Filter="1" />
+    <FileEntry Name="6026635440.idx" Filter="1" />
     <FileEntry Name="64738522440.idx" Filter="1" />
+    <FileEntry Name="76476655440.idx" Filter="1" />
+    <FileEntry Name="97331379440.idx" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
     <FileEntry Name="Breakpoints.xml" Filter="1" />
     <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
@@ -40,6 +47,8 @@
     <FileEntry Name="login.dat" Filter="1" />
     <FileEntry Name="lrw_custom_body.h" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrvkBC.571.log" Filter="1" />
+    <FileEntry Name="mdrvPQC.233.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
     <FileEntry Name="options.txt" Filter="1" />
     <FileEntry Name="output.bak" Filter="1" />

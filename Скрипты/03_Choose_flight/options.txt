@@ -2,8 +2,8 @@
 -DCCI
 -D_IDA_XL
 -DWINNT
--IC:\Users\Сабина\Desktop\SCRIPTS_02\03_Choose_flight
--IC:\Program Files (x86)\Micro Focus\LoadRunner\include
--ec:\users\сабина\desktop\scripts_02\03_choose_flight\\logfile.log
-c:\users\сабина\desktop\scripts_02\03_choose_flight\\combined_03_Choose_flight.c
-c:\users\сабина\desktop\scripts_02\03_choose_flight\\pre_cci.c
+-IC:\Users\Сабина\Desktop\SCRIPTS_02\Скрипты\03_Choose_flight
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ec:\users\сабина\desktop\scripts_02\скрипты\03_choose_flight\\logfile.log
+c:\users\сабина\desktop\scripts_02\скрипты\03_choose_flight\\combined_03_Choose_flight.c
+c:\users\сабина\desktop\scripts_02\скрипты\03_choose_flight\\pre_cci.c

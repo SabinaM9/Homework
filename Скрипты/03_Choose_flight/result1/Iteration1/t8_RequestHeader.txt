@@ -1,5 +1,5 @@
-GET /cgi-bin/welcome.pl?page=itinerary HTTP/1.1
-Referer: http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights
+GET /cgi-bin/welcome.pl?signOff=1 HTTP/1.1
+Referer: http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary
 Origin: http://localhost:1080
 Sec-Fetch-Site: same-origin
 Sec-Fetch-Dest: frame
@@ -10,5 +10,5 @@ Accept-Language: ru
 Accept: */*
 Connection: Keep-Alive
 Host: localhost:1080
-Cookie: MSO=SID&1600514300; MTUserInfo=firstName&&address2&&username&VUser4&hash&116&lastName&%0A&address1&&creditCard&&expDate&%0A
+Cookie: MSO=SID&1600623855; MTUserInfo=firstName&&address2&&username&VUser5&hash&117&lastName&%0A&address1&&creditCard&&expDate&%0A
 

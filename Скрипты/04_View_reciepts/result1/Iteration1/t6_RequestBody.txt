@@ -1,3 +1,2 @@
-"advanceDiscount=0&depart=Seattle&departDate=07%2F06%2F2021&arrive=Sydney&returnDate=%7BreturnD"
-"ate%7D&numPassengers=%7BnumPassengers%7D&seatPref=None&seatType=Coach&findFlights.x=39&findFli"
-"ghts.y=17&.cgifields=roundtrip&.cgifields=seatType&.cgifields=seatPref"
+"outboundFlight=372%3B239%3B12%2F10%2F2020&numPassengers=1&advanceDiscount=0&seatType=Business&"
+"seatPref=None&reserveFlights.x=52&reserveFlights.y=4"

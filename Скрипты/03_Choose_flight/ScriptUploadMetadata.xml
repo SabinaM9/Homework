@@ -18,17 +18,24 @@
     <FileEntry Name="03_Choose_flight.c.pickle" Filter="1" />
     <FileEntry Name="03_Choose_flight.ci" Filter="1" />
     <FileEntry Name="03_Choose_flight.prm.bak" Filter="1" />
+    <FileEntry Name="03_Choose_flight.sdf" Filter="1" />
+    <FileEntry Name="103699863440.idx" Filter="1" />
     <FileEntry Name="116679476440.idx" Filter="1" />
     <FileEntry Name="119642122440.idx" Filter="1" />
+    <FileEntry Name="138113819440.idx" Filter="1" />
     <FileEntry Name="140444220440.idx" Filter="1" />
     <FileEntry Name="162278383440.idx" Filter="1" />
     <FileEntry Name="196610319440.idx" Filter="1" />
     <FileEntry Name="22630209440.idx" Filter="1" />
     <FileEntry Name="233024707440.idx" Filter="1" />
+    <FileEntry Name="246892782440.idx" Filter="1" />
     <FileEntry Name="255280767440.idx" Filter="1" />
     <FileEntry Name="33345241440.idx" Filter="1" />
+    <FileEntry Name="38372366440.idx" Filter="1" />
+    <FileEntry Name="38452381440.idx" Filter="1" />
     <FileEntry Name="50645851440.idx" Filter="1" />
     <FileEntry Name="66940625440.idx" Filter="1" />
+    <FileEntry Name="77339089440.idx" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
     <FileEntry Name="Breakpoints.xml" Filter="1" />
     <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
@@ -40,6 +47,8 @@
     <FileEntry Name="login.dat" Filter="1" />
     <FileEntry Name="lrw_custom_body.h" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrvCpo.747.log" Filter="1" />
+    <FileEntry Name="mdrvCx5.107.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
     <FileEntry Name="options.txt" Filter="1" />
     <FileEntry Name="output.bak" Filter="1" />

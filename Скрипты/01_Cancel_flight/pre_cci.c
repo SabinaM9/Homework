@@ -1,5 +1,5 @@
-# 1 "c:\\users\\\361\340\341\350\355\340\\desktop\\scripts_02\\01_cancel_flight\\\\combined_01_Cancel_flight.c"
-# 1 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/lrun.h" 1
+# 1 "c:\\users\\\361\340\341\350\355\340\\desktop\\scripts_02\\\361\352\360\350\357\362\373\\01_cancel_flight\\\\combined_01_Cancel_flight.c"
+# 1 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/lrun.h" 1
  
  
 
@@ -26,7 +26,7 @@
 
 
 
-# 103 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/lrun.h"
+# 103 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/lrun.h"
 
 
 
@@ -187,7 +187,7 @@ int lr_generate_uuid_free(lr_uuid_t uuid);
 int lr_generate_uuid_on_buf(lr_uuid_t buf);
 
    
-# 273 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/lrun.h"
+# 273 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/lrun.h"
 int lr_start_distributed_transaction  (char * transaction_name, lr_uuid_t correlator, long timeout  );
 
    
@@ -428,11 +428,11 @@ int   lr_msg (char * fmt, ...);
 int   lr_debug_message (unsigned int msg_class,
 									    char * format,
 										...);
-# 513 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/lrun.h"
+# 513 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/lrun.h"
 void   lr_new_prefix (int type,
                                  char * filename,
                                  int line);
-# 516 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/lrun.h"
+# 516 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/lrun.h"
 int   lr_log_message (char * fmt, ...);
 int   lr_message (char * fmt, ...);
 int   lr_error_message (char * fmt, ...);
@@ -446,7 +446,7 @@ int   lr_fail_trans_with_error (char * fmt, ...);
  
  
  
-# 540 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/lrun.h"
+# 540 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/lrun.h"
 
  
  
@@ -481,7 +481,7 @@ int   lr_eval_string_ext (const char *in_str,
                                      unsigned long const options,
                                      const char *file,
 								     long const line);
-# 574 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/lrun.h"
+# 574 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/lrun.h"
 void   lr_eval_string_ext_free (char * * pstr);
 
  
@@ -505,7 +505,7 @@ void   lr_eval_string_ext_free (char * * pstr);
  
 int lr_param_increment (char * dst_name,
                               char * src_name);
-# 597 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/lrun.h"
+# 597 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/lrun.h"
 
 
 
@@ -530,7 +530,7 @@ int	  lr_save_var (char *              param_val,
 							  unsigned long const param_val_len,
 							  unsigned long const options,
 							  char *			  param_name);
-# 621 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/lrun.h"
+# 621 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/lrun.h"
 int   lr_save_string (const char * param_val, const char * param_name);
 
 
@@ -554,7 +554,7 @@ int   lr_convert_double_to_double (const char *source_param_name, const char *fo
  
  
  
-# 700 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/lrun.h"
+# 700 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/lrun.h"
 void   lr_save_datetime (const char *format, int offset, const char *name);
 
 
@@ -616,7 +616,7 @@ char * lr_table_get_cell_by_col_name (char * param_name, int row, const char* co
 int lr_table_get_column_name_by_index (char * param_name, int col, 
 											char * * const col_name,
 											size_t * col_name_len);
-# 761 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/lrun.h"
+# 761 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/lrun.h"
 
 int lr_table_get_column_name_by_index_free (char * col_name);
 
@@ -624,7 +624,7 @@ int lr_table_get_column_name_by_index_free (char * col_name);
  
  
  
-# 776 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/lrun.h"
+# 776 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/lrun.h"
 int   lr_zip (const char* param1, const char* param2);
 int   lr_unzip (const char* param1, const char* param2);
 
@@ -649,12 +649,12 @@ int   lr_param_substit (char * file,
                                    size_t const in_len,
                                    char * * const out_str,
                                    size_t * const out_len);
-# 800 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/lrun.h"
+# 800 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/lrun.h"
 void   lr_param_substit_free (char * * pstr);
 
 
  
-# 812 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/lrun.h"
+# 812 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/lrun.h"
 
 
 
@@ -663,14 +663,14 @@ void   lr_param_substit_free (char * * pstr);
 char *   lrfnc_eval_string (char * str,
                                       char * file_name,
                                       long const line_num);
-# 820 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/lrun.h"
+# 820 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/lrun.h"
 
 
 int   lrfnc_save_string ( const char * param_val,
                                      const char * param_name,
                                      const char * file_name,
                                      long const line_num);
-# 826 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/lrun.h"
+# 826 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/lrun.h"
 
 int   lrfnc_free_parameter (const char * param_name );
 
@@ -697,7 +697,7 @@ int lr_save_searched_string(char * buffer, long buf_size, unsigned int occurrenc
 char *   lr_string (char * str);
 
  
-# 929 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/lrun.h"
+# 929 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/lrun.h"
 
 int   lr_save_value (char * param_val,
                                 unsigned long const param_val_len,
@@ -705,7 +705,7 @@ int   lr_save_value (char * param_val,
                                 char * param_name,
                                 char * file_name,
                                 long const line_num);
-# 936 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/lrun.h"
+# 936 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/lrun.h"
 
 
  
@@ -728,7 +728,7 @@ int   lr_printf (char * fmt, ...);
  
 int   lr_set_debug_message (unsigned int msg_class,
                                        unsigned int swtch);
-# 958 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/lrun.h"
+# 958 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/lrun.h"
 unsigned int   lr_get_debug_message (void);
 
 
@@ -758,7 +758,7 @@ int *   lr_localtime (long offset);
 int   lr_send_port (long port);
 
 
-# 1034 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/lrun.h"
+# 1034 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/lrun.h"
 
 
 
@@ -776,10 +776,10 @@ void vuser_declaration (void);
 
 
 
-# 1063 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/lrun.h"
+# 1063 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/lrun.h"
 
 
-# 1075 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/lrun.h"
+# 1075 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/lrun.h"
 
 
 
@@ -876,11 +876,8 @@ VTCERR   vtc_create_column(PVCI pvci, char * column,unsigned short *outRc);
 VTCERR   vtc_column_size(PVCI pvci, char * column, int *size);
 void   vtc_free(char * msg);
 void   vtc_free_list(char * *msglist);
-VTCERR   vtc_update_all_message_ifequals(PVCI pvci, char * columnNames, char * message, char * ifmessage, char * delimiter, unsigned short *outRc);
 
 VTCERR   lrvtc_connect(char * servername, int portnum, int options);
-VTCERR   lrvtc_connect_ex(char * vtc_first_param, ...);
-VTCERR   lrvtc_connect_ex_no_ellipsis(const char *vtc_first_param, char ** arguments, int argCount);
 VTCERR   lrvtc_disconnect();
 VTCERR   lrvtc_query_column(char * columnName, int columnIndex);
 VTCERR   lrvtc_query_row(int columnIndex);
@@ -905,7 +902,6 @@ VTCERR   lrvtc_drop_index(char * columnName);
 VTCERR   lrvtc_clear_row(int rowIndex);
 VTCERR   lrvtc_create_column(char * columnName);
 VTCERR   lrvtc_column_size(char * columnName);
-VTCERR   lrvtc_update_all_message_ifequals(char * columnNames, char * message, char * ifmessage, char * delimiter);
 
 
 
@@ -966,9 +962,9 @@ int lr_db_getvalue(char * pFirstArg, ...);
 
 
 
-# 1 "c:\\users\\\361\340\341\350\355\340\\desktop\\scripts_02\\01_cancel_flight\\\\combined_01_Cancel_flight.c" 2
+# 1 "c:\\users\\\361\340\341\350\355\340\\desktop\\scripts_02\\\361\352\360\350\357\362\373\\01_cancel_flight\\\\combined_01_Cancel_flight.c" 2
 
-# 1 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/SharedParameter.h" 1
+# 1 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/SharedParameter.h" 1
 
 
 
@@ -976,7 +972,7 @@ int lr_db_getvalue(char * pFirstArg, ...);
  
  
  
-# 100 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/SharedParameter.h"
+# 100 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/SharedParameter.h"
 
 
 
@@ -1073,8 +1069,6 @@ extern void vtc_free_list(char **msglist);
  
 
 extern VTCERR2  lrvtc_connect(char *servername, int portnum, int options);
- 
- 
 extern VTCERR2  lrvtc_disconnect();
 extern VTCERR2  lrvtc_query_column(char *columnName, int columnIndex);
 extern VTCERR2  lrvtc_query_row(int columnIndex);
@@ -1132,7 +1126,7 @@ extern VTCERR2  lrvtc_noop();
 
 
 
-# 2 "c:\\users\\\361\340\341\350\355\340\\desktop\\scripts_02\\01_cancel_flight\\\\combined_01_Cancel_flight.c" 2
+# 2 "c:\\users\\\361\340\341\350\355\340\\desktop\\scripts_02\\\361\352\360\350\357\362\373\\01_cancel_flight\\\\combined_01_Cancel_flight.c" 2
 
 # 1 "globals.h" 1
 
@@ -1141,7 +1135,7 @@ extern VTCERR2  lrvtc_noop();
  
  
 
-# 1 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/web_api.h" 1
+# 1 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/web_api.h" 1
 
 
 
@@ -1149,7 +1143,7 @@ extern VTCERR2  lrvtc_noop();
 
 
 
-# 1 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/as_web.h" 1
+# 1 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/as_web.h" 1
 
 
 
@@ -1928,13 +1922,10 @@ extern VTCERR2  lrvtc_noop();
 
 
 
-# 789 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/as_web.h"
+# 789 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/as_web.h"
 
 
-# 802 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/as_web.h"
-
-
-
+# 802 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/as_web.h"
 
 
 
@@ -1959,7 +1950,10 @@ extern VTCERR2  lrvtc_noop();
 
 
 
-# 840 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/as_web.h"
+
+
+
+# 840 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/as_web.h"
 
  
  
@@ -2006,7 +2000,7 @@ extern VTCERR2  lrvtc_noop();
 
 
 
-# 908 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/as_web.h"
+# 908 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/as_web.h"
 
 
   int
@@ -2101,7 +2095,7 @@ web_stream_set_custom_mpd(
 
 
 
-# 9 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/web_api.h" 2
+# 9 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/web_api.h" 2
 
 
 
@@ -2591,6 +2585,8 @@ void
 
 
 
+
+
  
  
 
@@ -2602,21 +2598,23 @@ void
 
 
 
-# 3 "c:\\users\\\361\340\341\350\355\340\\desktop\\scripts_02\\01_cancel_flight\\\\combined_01_Cancel_flight.c" 2
+
+
+# 3 "c:\\users\\\361\340\341\350\355\340\\desktop\\scripts_02\\\361\352\360\350\357\362\373\\01_cancel_flight\\\\combined_01_Cancel_flight.c" 2
 
 # 1 "vuser_init.c" 1
 vuser_init()
 {
 	return 0;
 }
-# 4 "c:\\users\\\361\340\341\350\355\340\\desktop\\scripts_02\\01_cancel_flight\\\\combined_01_Cancel_flight.c" 2
+# 4 "c:\\users\\\361\340\341\350\355\340\\desktop\\scripts_02\\\361\352\360\350\357\362\373\\01_cancel_flight\\\\combined_01_Cancel_flight.c" 2
 
 # 1 "Action.c" 1
 Action()
 {
 	lr_start_transaction("01_Cancel_flight");
 	
-	web_set_sockets_option("SSL_VERSION", "AUTO");
+	web_set_sockets_option("SSL_VERSION", "2&3");
 
 	web_add_auto_header("Sec-Fetch-Site", 
 		"none");
@@ -2632,23 +2630,15 @@ Action()
 
 	web_add_auto_header("Upgrade-Insecure-Requests", 
 		"1");
-
- 
-
-
-
-
-
-	web_reg_save_param_attrib(
-		"ParamName=userSession",
-		"TagName=input",
-		"Extract=value",
-		"Name=userSession",
-		"Type=hidden",
-		"SEARCH_FILTERS",
-		"RequestUrl=*/nav.pl*",
+ 		
+# 32 "Action.c"
+	 
+	web_reg_save_param("userSession",
+		"LB=input type\=\"hidden\" name=\"userSession\" value\=\"",
+		"RB=\"/\>",
+		"NotFound=ERROR",
 		"LAST");
-
+	
 	 
 	web_reg_find("Text=A Session ID has been created and loaded into a cookie called MSO.",
 		"LAST");
@@ -2971,12 +2961,263 @@ Action()
 
 	return 0;
 }
-# 5 "c:\\users\\\361\340\341\350\355\340\\desktop\\scripts_02\\01_cancel_flight\\\\combined_01_Cancel_flight.c" 2
+# 5 "c:\\users\\\361\340\341\350\355\340\\desktop\\scripts_02\\\361\352\360\350\357\362\373\\01_cancel_flight\\\\combined_01_Cancel_flight.c" 2
+
+# 1 "Action1.c" 1
+Action1()
+{
+
+	web_add_auto_header("Sec-Fetch-Site", 
+		"none");
+
+	web_add_auto_header("Sec-Fetch-Dest", 
+		"document");
+
+	web_add_auto_header("Sec-Fetch-Mode", 
+		"navigate");
+
+	web_add_auto_header("Sec-Fetch-User", 
+		"?1");
+
+	web_add_auto_header("Upgrade-Insecure-Requests", 
+		"1");
+	
+ 
+	web_reg_save_param("userSession",
+		"LB=input type\=\"hidden\" name=\"userSession\" value\=\"",
+		"RB=\"/\>",
+		"NotFound=ERROR",
+		"LAST");
+
+web_reg_save_param_attrib(
+		"ParamName=userSession",
+		"TagName=input",
+		"Extract=value",
+		"Name=userSession",
+		"Type=hidden",
+		"SEARCH_FILTERS",
+		"RequestUrl=http://localhost:1080/WebTours/",
+		"LAST");
+
+	web_url("WebTours", 
+		"URL=http://localhost:1080/WebTours/", 
+		"TargetFrame=", 
+		"Resource=0", 
+		"RecContentType=text/html", 
+		"Referer=", 
+		"Snapshot=t184.inf", 
+		"Mode=HTML", 
+		"LAST");
+
+	web_set_sockets_option("SSL_VERSION", "2&3");
+
+	(web_remove_auto_header("Sec-Fetch-User", "ImplicitGen=Yes", "LAST"));
+
+	web_add_auto_header("Sec-Fetch-Dest", 
+		"frame");
+
+	(web_remove_auto_header("Upgrade-Insecure-Requests", "ImplicitGen=Yes", "LAST"));
+
+	web_add_header("Origin", 
+		"http://localhost:1080");
+
+	web_add_auto_header("Sec-Fetch-Site", 
+		"same-origin");
+
+	lr_think_time(21);
+
+	web_submit_data("login.pl", 
+		"Action=http://localhost:1080/cgi-bin/login.pl", 
+		"Method=POST", 
+		"TargetFrame=body", 
+		"RecContentType=text/html", 
+		"Referer=http://localhost:1080/cgi-bin/nav.pl?in=home", 
+		"Snapshot=t185.inf", 
+		"Mode=HTML", 
+		"ITEMDATA", 
+		"Name=userSession", "Value=129656.534143378zzzQcAHpQHftAAVfpctHif", "ENDITEM", 
+		"Name=username", "Value=VUser5", "ENDITEM", 
+		"Name=password", "Value=VUser5", "ENDITEM", 
+		"Name=login.x", "Value=74", "ENDITEM", 
+		"Name=login.y", "Value=9", "ENDITEM", 
+		"Name=JSFormSubmit", "Value=off", "ENDITEM", 
+		"LAST");
+
+	web_add_auto_header("Sec-Fetch-User", 
+		"?1");
+
+	web_add_auto_header("Upgrade-Insecure-Requests", 
+		"1");
+
+	lr_think_time(56);
+
+	web_url("Search Flights Button", 
+		"URL=http://localhost:1080/cgi-bin/welcome.pl?page=search", 
+		"TargetFrame=body", 
+		"Resource=0", 
+		"RecContentType=text/html", 
+		"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home", 
+		"Snapshot=t186.inf", 
+		"Mode=HTML", 
+		"LAST");
+
+	web_add_auto_header("Origin", 
+		"http://localhost:1080");
+
+	lr_think_time(4);
+
+	web_submit_data("reservations.pl", 
+		"Action=http://localhost:1080/cgi-bin/reservations.pl", 
+		"Method=POST", 
+		"TargetFrame=", 
+		"RecContentType=text/html", 
+		"Referer=http://localhost:1080/cgi-bin/reservations.pl?page=welcome", 
+		"Snapshot=t187.inf", 
+		"Mode=HTML", 
+		"ITEMDATA", 
+		"Name=advanceDiscount", "Value=0", "ENDITEM", 
+		"Name=depart", "Value=Denver", "ENDITEM", 
+		"Name=departDate", "Value=09/21/2020", "ENDITEM", 
+		"Name=arrive", "Value=Denver", "ENDITEM", 
+		"Name=returnDate", "Value=09/22/2020", "ENDITEM", 
+		"Name=numPassengers", "Value=1", "ENDITEM", 
+		"Name=seatPref", "Value=None", "ENDITEM", 
+		"Name=seatType", "Value=Coach", "ENDITEM", 
+		"Name=findFlights.x", "Value=67", "ENDITEM", 
+		"Name=findFlights.y", "Value=4", "ENDITEM", 
+		"Name=.cgifields", "Value=roundtrip", "ENDITEM", 
+		"Name=.cgifields", "Value=seatType", "ENDITEM", 
+		"Name=.cgifields", "Value=seatPref", "ENDITEM", 
+		"LAST");
+
+	web_submit_data("reservations.pl_2", 
+		"Action=http://localhost:1080/cgi-bin/reservations.pl", 
+		"Method=POST", 
+		"TargetFrame=", 
+		"RecContentType=text/html", 
+		"Referer=http://localhost:1080/cgi-bin/reservations.pl", 
+		"Snapshot=t188.inf", 
+		"Mode=HTML", 
+		"ITEMDATA", 
+		"Name=outboundFlight", "Value=000;0;09/21/2020", "ENDITEM", 
+		"Name=numPassengers", "Value=1", "ENDITEM", 
+		"Name=advanceDiscount", "Value=0", "ENDITEM", 
+		"Name=seatType", "Value=Coach", "ENDITEM", 
+		"Name=seatPref", "Value=None", "ENDITEM", 
+		"Name=reserveFlights.x", "Value=44", "ENDITEM", 
+		"Name=reserveFlights.y", "Value=13", "ENDITEM", 
+		"LAST");
+
+	(web_remove_auto_header("Origin", "ImplicitGen=Yes", "LAST"));
+
+	(web_remove_auto_header("Sec-Fetch-User", "ImplicitGen=Yes", "LAST"));
+
+	(web_remove_auto_header("Upgrade-Insecure-Requests", "ImplicitGen=Yes", "LAST"));
+
+	web_add_header("Origin", 
+		"http://localhost:1080");
+
+	lr_think_time(19);
+
+	web_submit_data("reservations.pl_3", 
+		"Action=http://localhost:1080/cgi-bin/reservations.pl", 
+		"Method=POST", 
+		"TargetFrame=", 
+		"RecContentType=text/html", 
+		"Referer=http://localhost:1080/cgi-bin/reservations.pl", 
+		"Snapshot=t189.inf", 
+		"Mode=HTML", 
+		"ITEMDATA", 
+		"Name=firstName", "Value=sasha", "ENDITEM", 
+		"Name=lastName", "Value=king", "ENDITEM", 
+		"Name=address1", "Value=", "ENDITEM", 
+		"Name=address2", "Value=", "ENDITEM", 
+		"Name=pass1", "Value= ", "ENDITEM", 
+		"Name=creditCard", "Value=65233563231651", "ENDITEM", 
+		"Name=expDate", "Value=07/21", "ENDITEM", 
+		"Name=oldCCOption", "Value=", "ENDITEM", 
+		"Name=numPassengers", "Value=1", "ENDITEM", 
+		"Name=seatType", "Value=Coach", "ENDITEM", 
+		"Name=seatPref", "Value=None", "ENDITEM", 
+		"Name=outboundFlight", "Value=000;0;09/21/2020", "ENDITEM", 
+		"Name=advanceDiscount", "Value=0", "ENDITEM", 
+		"Name=returnFlight", "Value=", "ENDITEM", 
+		"Name=JSFormSubmit", "Value=off", "ENDITEM", 
+		"Name=buyFlights.x", "Value=46", "ENDITEM", 
+		"Name=buyFlights.y", "Value=4", "ENDITEM", 
+		"Name=.cgifields", "Value=saveCC", "ENDITEM", 
+		"LAST");
+
+	web_add_auto_header("Sec-Fetch-User", 
+		"?1");
+
+	web_add_auto_header("Upgrade-Insecure-Requests", 
+		"1");
+
+	lr_think_time(19);
+
+	web_url("Itinerary Button", 
+		"URL=http://localhost:1080/cgi-bin/welcome.pl?page=itinerary", 
+		"TargetFrame=body", 
+		"Resource=0", 
+		"RecContentType=text/html", 
+		"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights", 
+		"Snapshot=t190.inf", 
+		"Mode=HTML", 
+		"LAST");
+
+	web_add_header("Origin", 
+		"http://localhost:1080");
+
+	lr_think_time(23);
+
+	web_submit_data("itinerary.pl", 
+		"Action=http://localhost:1080/cgi-bin/itinerary.pl", 
+		"Method=POST", 
+		"TargetFrame=", 
+		"RecContentType=text/html", 
+		"Referer=http://localhost:1080/cgi-bin/itinerary.pl", 
+		"Snapshot=t191.inf", 
+		"Mode=HTML", 
+		"ITEMDATA", 
+		"Name=1", "Value=on", "ENDITEM", 
+		"Name=flightID", "Value=0-0-H", "ENDITEM", 
+		"Name=2", "Value=on", "ENDITEM", 
+		"Name=flightID", "Value=0-0-B", "ENDITEM", 
+		"Name=3", "Value=on", "ENDITEM", 
+		"Name=flightID", "Value=0-280948894793577-30", "ENDITEM", 
+		"Name=flightID", "Value=0-3-1C", "ENDITEM", 
+		"Name=removeFlights.x", "Value=68", "ENDITEM", 
+		"Name=removeFlights.y", "Value=6", "ENDITEM", 
+		"Name=.cgifields", "Value=4", "ENDITEM", 
+		"Name=.cgifields", "Value=1", "ENDITEM", 
+		"Name=.cgifields", "Value=3", "ENDITEM", 
+		"Name=.cgifields", "Value=2", "ENDITEM", 
+		"LAST");
+
+	(web_remove_auto_header("Sec-Fetch-User", "ImplicitGen=Yes", "LAST"));
+
+	web_add_header("Sec-Fetch-User", 
+		"?1");
+
+	web_url("SignOff Button", 
+		"URL=http://localhost:1080/cgi-bin/welcome.pl?signOff=1", 
+		"TargetFrame=body", 
+		"Resource=0", 
+		"RecContentType=text/html", 
+		"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary", 
+		"Snapshot=t192.inf", 
+		"Mode=HTML", 
+		"LAST");
+
+	return 0;
+}
+# 6 "c:\\users\\\361\340\341\350\355\340\\desktop\\scripts_02\\\361\352\360\350\357\362\373\\01_cancel_flight\\\\combined_01_Cancel_flight.c" 2
 
 # 1 "vuser_end.c" 1
 vuser_end()
 {
 	return 0;
 }
-# 6 "c:\\users\\\361\340\341\350\355\340\\desktop\\scripts_02\\01_cancel_flight\\\\combined_01_Cancel_flight.c" 2
+# 7 "c:\\users\\\361\340\341\350\355\340\\desktop\\scripts_02\\\361\352\360\350\357\362\373\\01_cancel_flight\\\\combined_01_Cancel_flight.c" 2
 

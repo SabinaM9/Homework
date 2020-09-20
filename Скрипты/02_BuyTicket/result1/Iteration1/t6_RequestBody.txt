@@ -1,3 +1,2 @@
-"advanceDiscount=0&depart=Zurich&departDate=11%2F18%2F2020&arrive=Denver&returnDate=%7BreturnDa"
-"te%7D&numPassengers=%7BnumPassengers%7D&seatPref=Aisle&seatType=Coach&findFlights.x=39&findFli"
-"ghts.y=17&.cgifields=roundtrip&.cgifields=seatType&.cgifields=seatPref"
+"outboundFlight=783%3B951%3B12%2F10%2F2020&numPassengers=1&advanceDiscount=0&seatType=Business&"
+"seatPref=Aisle&reserveFlights.x=52&reserveFlights.y=4"
