@@ -19,6 +19,8 @@ Action()
 	web_add_auto_header("Upgrade-Insecure-Requests", 
 		"1");
 
+	lr_start_transaction("connection");
+	
 //input type="hidden" name="userSession" value="129622.008991495zzzHtDcpAiHftAAAtpfQcfcf"/>
 	web_reg_save_param("userSession",
 		"LB=input type=\"hidden\" name\=\"userSession\" value\=\"",
@@ -28,8 +30,6 @@ Action()
 	//Проверка транзакции connection
 	web_reg_find("Text=A Session ID has been created and loaded into a cookie called MSO.",
 		LAST);
-
-	lr_start_transaction("connection");
 
 	web_url("WebTours", 
 		"URL=http://localhost:1080/WebTours/", 
@@ -56,13 +56,13 @@ Action()
 	web_add_auto_header("Sec-Fetch-Site", 
 		"same-origin");
 
+	lr_start_transaction("login");
+	
 	//Проверка транзакции login
 	web_reg_find("Text=Welcome, <b>{login}</b>, to the Web Tours reservation pages",
 		LAST,
 		"Text=User password was correct - added a cookie with the user's default",
 		LAST);
-
-	lr_start_transaction("login");
 
 	web_submit_data("login.pl",
 		"Action=http://localhost:1080/cgi-bin/login.pl",
@@ -106,6 +106,8 @@ Action()
 
 	lr_think_time(22);
 
+	lr_start_transaction("insert_info_for_ticket_search");
+	
 	//Проверка транзакции insert_info_for_ticket_search
 	web_reg_find("Text=Flight departing from <B>{departure}</B> to <B>{arrival}</B> on <B>{departDate}</B>",
 		LAST);
@@ -133,8 +135,6 @@ Action()
 		"RB=m<td align=\"center\">$ ",
 		"Ord={randIndex}",
 		LAST);
-
-	lr_start_transaction("insert_info_for_ticket_search");
 
 	web_submit_data("reservations.pl", 
 		"Action=http://localhost:1080/cgi-bin/reservations.pl", 
@@ -164,6 +164,8 @@ Action()
 
 	lr_think_time(28);
 
+	lr_start_transaction("choose_the_flight");
+	
 	//Проверка транзакции choose_the_flight
 	web_reg_find("Text=Flight Reservation",
 		LAST,
@@ -171,8 +173,6 @@ Action()
 		LAST,
 		"Text=from {departure} to {arrival}.",
 		LAST);
-
-	lr_start_transaction("choose_the_flight");
 
 	web_submit_data("reservations.pl_2",
 		"Action=http://localhost:1080/cgi-bin/reservations.pl",
@@ -205,6 +205,8 @@ Action()
 
 	lr_think_time(27);
 	
+	lr_start_transaction("insert_payment_info");
+	
 	//Проверка транзакции insert_payment_info
 	web_reg_find("Text={departDate} :  {flight_time}m : Flight {flight_id} leaves {departure}  for {arrival}.",
 	             LAST,
@@ -214,8 +216,6 @@ Action()
 	             LAST,
 	             "Text=A {seatType} Class ticket/nfrom {departure} to {arrival}.",
 	             LAST);
-            
-	lr_start_transaction("insert_payment_info");
 
 	web_submit_data("reservations.pl_3",
 		"Action=http://localhost:1080/cgi-bin/reservations.pl",
@@ -256,14 +256,13 @@ Action()
 
 	lr_think_time(10);
 
+	lr_start_transaction("view_itinerary");
 	
 	//Проверка транзакции view_itinerary
 	web_reg_find("Text=Flight Transaction Summary",
 	             LAST,
 	             "Text=Flights List",
 	             LAST);
-
-	lr_start_transaction("view_itinerary");
 
 	web_url("Itinerary Button", 
 		"URL=http://localhost:1080/cgi-bin/welcome.pl?page=itinerary", 
@@ -282,11 +281,11 @@ Action()
 
 	lr_think_time(5);
 
+	lr_start_transaction("logout");
+	
 	//Проверка транзакции logout
 	web_reg_find("Text=A Session ID has been created and loaded into a cookie called MSO.",
 		LAST);
-	
-	lr_start_transaction("logout");
 
 	web_url("welcome.pl", 
 		"URL=http://localhost:1080/cgi-bin/welcome.pl?signOff=1", 

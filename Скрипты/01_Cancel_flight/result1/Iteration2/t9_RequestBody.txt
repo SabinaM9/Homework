@@ -1,4 +1,0 @@
-"flightID=119-0-SI&flightID=7-16-S&flightID=0-23-J&flightID=0-0-J&flightID=0-39-%0A&flightID=2."
-"46338242908148e%2B016-46-J&flightID=0-54-J&8=on&flightID=0-6-J&.cgifields=6&.cgifields=3&.cgif"
-"ields=7&.cgifields=2&.cgifields=8&.cgifields=1&.cgifields=4&.cgifields=5&removeFlights.x=61&re"
-"moveFlights.y=6"

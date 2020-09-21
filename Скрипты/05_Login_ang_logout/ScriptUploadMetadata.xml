@@ -38,6 +38,9 @@
     <FileEntry Name="login.dat" Filter="1" />
     <FileEntry Name="lrw_custom_body.h" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrv3zn.579.log" Filter="1" />
+    <FileEntry Name="mdrvMfk.111.log" Filter="1" />
+    <FileEntry Name="mdrvPQT.43.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
     <FileEntry Name="options.txt" Filter="1" />
     <FileEntry Name="output.bak" Filter="1" />

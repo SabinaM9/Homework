@@ -1,4 +1,4 @@
-# 1 "c:\\users\\\361\340\341\350\355\340\\desktop\\forgithub\\\361\352\360\350\357\362\373\\01_cancel_flight\\\\combined_01_Cancel_flight.c"
+# 1 "c:\\users\\\361\340\341\350\355\340\\desktop\\scripts_02\\\361\352\360\350\357\362\373\\01_cancel_flight\\\\combined_01_Cancel_flight.c"
 # 1 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/lrun.h" 1
  
  
@@ -962,7 +962,7 @@ int lr_db_getvalue(char * pFirstArg, ...);
 
 
 
-# 1 "c:\\users\\\361\340\341\350\355\340\\desktop\\forgithub\\\361\352\360\350\357\362\373\\01_cancel_flight\\\\combined_01_Cancel_flight.c" 2
+# 1 "c:\\users\\\361\340\341\350\355\340\\desktop\\scripts_02\\\361\352\360\350\357\362\373\\01_cancel_flight\\\\combined_01_Cancel_flight.c" 2
 
 # 1 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/SharedParameter.h" 1
 
@@ -1126,7 +1126,7 @@ extern VTCERR2  lrvtc_noop();
 
 
 
-# 2 "c:\\users\\\361\340\341\350\355\340\\desktop\\forgithub\\\361\352\360\350\357\362\373\\01_cancel_flight\\\\combined_01_Cancel_flight.c" 2
+# 2 "c:\\users\\\361\340\341\350\355\340\\desktop\\scripts_02\\\361\352\360\350\357\362\373\\01_cancel_flight\\\\combined_01_Cancel_flight.c" 2
 
 # 1 "globals.h" 1
 
@@ -2596,14 +2596,14 @@ void
 
 
 
-# 3 "c:\\users\\\361\340\341\350\355\340\\desktop\\forgithub\\\361\352\360\350\357\362\373\\01_cancel_flight\\\\combined_01_Cancel_flight.c" 2
+# 3 "c:\\users\\\361\340\341\350\355\340\\desktop\\scripts_02\\\361\352\360\350\357\362\373\\01_cancel_flight\\\\combined_01_Cancel_flight.c" 2
 
 # 1 "vuser_init.c" 1
 vuser_init()
 {
 	return 0;
 }
-# 4 "c:\\users\\\361\340\341\350\355\340\\desktop\\forgithub\\\361\352\360\350\357\362\373\\01_cancel_flight\\\\combined_01_Cancel_flight.c" 2
+# 4 "c:\\users\\\361\340\341\350\355\340\\desktop\\scripts_02\\\361\352\360\350\357\362\373\\01_cancel_flight\\\\combined_01_Cancel_flight.c" 2
 
 # 1 "Action.c" 1
 Action()
@@ -2627,6 +2627,8 @@ Action()
 	web_add_auto_header("Upgrade-Insecure-Requests", 
 		"1");
 	
+	lr_start_transaction("connection");
+	
  
 	web_reg_save_param("userSession",
 		"LB=input type\=\"hidden\" name\=\"userSession\" value\=\"",
@@ -2636,8 +2638,6 @@ Action()
 	 
 	web_reg_find("Text=A Session ID has been created and loaded into a cookie called MSO.",
 		"LAST");
-
-	lr_start_transaction("connection");
 
 	web_url("WebTours", 
 		"URL=http://localhost:1080/WebTours/", 
@@ -2664,13 +2664,11 @@ Action()
 	web_add_auto_header("Sec-Fetch-Site", 
 		"same-origin");
 
-	 
-	web_reg_find("Text=Welcome, <b>{login}</b>, to the Web Tours reservation pages",
-		"LAST",
-		"Text=User password was correct - added a cookie with the user's default",
-		"LAST");
-
 	lr_start_transaction("login");
+	
+	 
+	web_reg_find("Text=User password was correct - added a cookie with the user's default",
+		"LAST");
 
 	web_submit_data("login.pl",
 		"Action=http://localhost:1080/cgi-bin/login.pl",
@@ -2713,7 +2711,9 @@ Action()
 		"http://localhost:1080");
 
 	lr_think_time(22);
-
+	
+	lr_start_transaction("insert_info_for_ticket_search");
+	
 	 
 	web_reg_find("Text=Flight departing from <B>{departure}</B> to <B>{arrival}</B> on <B>{departDate}</B>",
 		"LAST");
@@ -2729,9 +2729,9 @@ Action()
 		"SEARCH_FILTERS",
 		"IgnoreRedirections=No",
 		"LAST");
-		
+	
 	web_reg_save_param("flight_id",
-		"LB=name=\"outboundFlight\" value=\"",
+		"LB=name=\"outboundFlight\" value\=\"",
 		"RB=;",
 		"Ord={randIndex}",
 		"LAST");
@@ -2741,8 +2741,6 @@ Action()
 		"RB=m<td align=\"center\">$ ",
 		"Ord={randIndex}",
 		"LAST");
-
-	lr_start_transaction("insert_info_for_ticket_search");
 
 	web_submit_data("reservations.pl", 
 		"Action=http://localhost:1080/cgi-bin/reservations.pl", 
@@ -2772,6 +2770,8 @@ Action()
 
 	lr_think_time(28);
 
+	lr_start_transaction("choose_the_flight");
+	
 	 
 	web_reg_find("Text=Flight Reservation",
 		"LAST",
@@ -2779,8 +2779,6 @@ Action()
 		"LAST",
 		"Text=from {departure} to {arrival}.",
 		"LAST");
-
-	lr_start_transaction("choose_the_flight");
 
 	web_submit_data("reservations.pl_2",
 		"Action=http://localhost:1080/cgi-bin/reservations.pl",
@@ -2813,6 +2811,8 @@ Action()
 
 	lr_think_time(27);
 	
+	lr_start_transaction("insert_payment_info");
+	
 	 
 	web_reg_find("Text={departDate} :  {flight_time}m : Flight {flight_id} leaves {departure}  for {arrival}.",
 	             "LAST",
@@ -2822,8 +2822,6 @@ Action()
 	             "LAST",
 	             "Text=A {seatType} Class ticket/nfrom {departure} to {arrival}.",
 	             "LAST");
-            
-	lr_start_transaction("insert_payment_info");
 
 	web_submit_data("reservations.pl_3",
 		"Action=http://localhost:1080/cgi-bin/reservations.pl",
@@ -2864,6 +2862,7 @@ Action()
 
 	lr_think_time(10);
 
+	lr_start_transaction("view_itinerary");
 	
 	 
 	web_reg_find("Text=Flight Transaction Summary",
@@ -2883,8 +2882,6 @@ Action()
 		"Ord=ALL",
 		"LAST");
 
-	lr_start_transaction("view_itinerary");
-
 	web_url("Itinerary Button", 
 		"URL=http://localhost:1080/cgi-bin/welcome.pl?page=itinerary", 
 		"TargetFrame=body", 
@@ -2902,6 +2899,8 @@ Action()
 
 	lr_think_time(5);
 
+	lr_start_transaction("cancel_flight");
+	
 	lr_save_string(lr_paramarr_random("flightsNum"), "randomFlightNum");
 	
 	 
@@ -2911,8 +2910,6 @@ Action()
 	web_reg_find("Fail=Found",
 		"Text= Flight flightID_randFlightNumInt leaves ",
 		"LAST");
-
-	lr_start_transaction("cancel_flight");
 
 	web_submit_form("itinerary.pl",
 		"ITEMDATA",
@@ -2933,11 +2930,11 @@ Action()
 
 	lr_think_time(22);
 
+	lr_start_transaction("logout");
+	
 	 
 	web_reg_find("Text=A Session ID has been created and loaded into a cookie called MSO.",
 		"LAST");
-	
-	lr_start_transaction("logout");
 
 	web_url("welcome.pl", 
 		"URL=http://localhost:1080/cgi-bin/welcome.pl?signOff=1", 
@@ -2955,12 +2952,12 @@ Action()
 
 	return 0;
 }
-# 5 "c:\\users\\\361\340\341\350\355\340\\desktop\\forgithub\\\361\352\360\350\357\362\373\\01_cancel_flight\\\\combined_01_Cancel_flight.c" 2
+# 5 "c:\\users\\\361\340\341\350\355\340\\desktop\\scripts_02\\\361\352\360\350\357\362\373\\01_cancel_flight\\\\combined_01_Cancel_flight.c" 2
 
 # 1 "vuser_end.c" 1
 vuser_end()
 {
 	return 0;
 }
-# 6 "c:\\users\\\361\340\341\350\355\340\\desktop\\forgithub\\\361\352\360\350\357\362\373\\01_cancel_flight\\\\combined_01_Cancel_flight.c" 2
+# 6 "c:\\users\\\361\340\341\350\355\340\\desktop\\scripts_02\\\361\352\360\350\357\362\373\\01_cancel_flight\\\\combined_01_Cancel_flight.c" 2
 

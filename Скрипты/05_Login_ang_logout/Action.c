@@ -19,6 +19,8 @@ Action()
 	web_add_auto_header("Upgrade-Insecure-Requests", 
 		"1");
 
+	lr_start_transaction("connection");
+	
 //input type="hidden" name="userSession" value="129622.008991495zzzHtDcpAiHftAAAtpfQcfcf"/>
 	web_reg_save_param("userSession",
 		"LB=input type=\"hidden\" name\=\"userSession\" value\=\"",
@@ -28,8 +30,6 @@ Action()
 	//Проверка транзакции connection
 	web_reg_find("Text=A Session ID has been created and loaded into a cookie called MSO.",
 		LAST);
-
-	lr_start_transaction("connection");
 
 	web_url("WebTours", 
 		"URL=http://localhost:1080/WebTours/", 
@@ -56,13 +56,13 @@ Action()
 	web_add_auto_header("Sec-Fetch-Site", 
 		"same-origin");
 
+	lr_start_transaction("login");
+	
 	//Проверка транзакции login
 	web_reg_find("Text=Welcome, <b>{login}</b>, to the Web Tours reservation pages",
 		LAST,
 		"Text=User password was correct - added a cookie with the user's default",
 		LAST);
-
-	lr_start_transaction("login");
 
 	web_submit_data("login.pl",
 		"Action=http://localhost:1080/cgi-bin/login.pl",
@@ -91,11 +91,11 @@ Action()
 
 	lr_think_time(6);
 
+	lr_start_transaction("logout");
+	
 	//Проверка транзакции logout
 	web_reg_find("Text=A Session ID has been created and loaded into a cookie called MSO.",
 		LAST);
-	
-	lr_start_transaction("logout");
 
 	web_url("welcome.pl", 
 		"URL=http://localhost:1080/cgi-bin/welcome.pl?signOff=1", 

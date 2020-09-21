@@ -54,7 +54,7 @@ vuser_end=cci
 [TransactionsOrder]
 Order="01_Cancel_flight__*delimiter*__connection__*delimiter*__login__*delimiter*__insert_info_for_ticket_search__*delimiter*__choose_the_flight__*delimiter*__insert_payment_info__*delimiter*__view_itinerary__*delimiter*__cancel_flight__*delimiter*__logout"
 [StateManagement]
-LastReplayStatus=3
+LastReplayStatus=1
 [ActiveReplay]
 LastReplayedRunName=result1
 ActiveRunName=result1
