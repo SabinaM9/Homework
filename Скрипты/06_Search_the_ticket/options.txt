@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Сабина\Desktop\forGITHUB\Скрипты\06_Search_the_ticket
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ec:\users\сабина\desktop\forgithub\скрипты\06_search_the_ticket\\logfile.log
+c:\users\сабина\desktop\forgithub\скрипты\06_search_the_ticket\\combined_06_Search_the_ticket.c
+c:\users\сабина\desktop\forgithub\скрипты\06_search_the_ticket\\pre_cci.c

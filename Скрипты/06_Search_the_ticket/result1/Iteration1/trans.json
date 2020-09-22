@@ -1,0 +1,27 @@
+[
+    {
+        "transactionName": "connection",
+        "rawStartTime": 1600714560295,
+        "rawEndTime": 1600714562768
+    },
+    {
+        "transactionName": "login",
+        "rawStartTime": 1600714562877,
+        "rawEndTime": 1600714564089
+    },
+    {
+        "transactionName": "insert_info_for_ticket_search",
+        "rawStartTime": 1600714565143,
+        "rawEndTime": 1600714565806
+    },
+    {
+        "transactionName": "logout",
+        "rawStartTime": 1600714565830,
+        "rawEndTime": 1600714566424
+    },
+    {
+        "transactionName": "06_Search_the_ticket",
+        "rawStartTime": 1600714559782,
+        "rawEndTime": 1600714566439
+    }
+]
