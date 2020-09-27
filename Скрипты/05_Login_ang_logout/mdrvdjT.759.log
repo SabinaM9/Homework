@@ -1,0 +1,22 @@
+Start auto log messages stack - Iteration 116.	[MsgId: MMSG-10545]
+Action.c(86): web_add_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+Action.c(86): web_add_auto_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+Action.c(89): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+Action.c(89): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+Action.c(92): Think time - Waiting 5,00 seconds (according to limit).	[MsgId: MMSG-15946]
+Action.c(92): lr_think_time: 5,00 seconds (recorded think time was 6,00 seconds).	[MsgId: MMSG-15947]
+Action.c(94): Notify: Transaction "logout" started.	[MsgId: MMSG-16999]
+Action.c(97): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(97): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(100): web_url("welcome.pl") started  	[MsgId: MMSG-26355]
+Action.c(100): Error -27724: Step download timeout (120 seconds) has expired when downloading resource "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MERR-27724]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 116.	[MsgId: MMSG-10545]
+Action.c(100): Aborting pending download of URL="http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=2086)  	[MsgId: MMSG-27652]
+Action.c(100): Error -26366: "Text=A Session ID has been created and loaded into a cookie called MSO." not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(100): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 0 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
