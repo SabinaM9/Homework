@@ -484,7 +484,7 @@
             [
               {
                 "params": [
-                  "Available_Bytes"
+                  "Available_MBytes"
                 ],
                 "type": "field"
               },
@@ -494,60 +494,7 @@
               },
               {
                 "params": [
-                  "Available Bytes"
-                ],
-                "type": "alias"
-              }
-            ]
-          ],
-          "tags": [],
-          "tz": "UTC"
-        },
-        {
-          "alias": "$col",
-          "groupBy": [
-            {
-              "params": [
-                "$__interval"
-              ],
-              "type": "time"
-            },
-            {
-              "params": [
-                "host"
-              ],
-              "type": "tag"
-            },
-            {
-              "params": [
-                "none"
-              ],
-              "type": "fill"
-            }
-          ],
-          "hide": false,
-          "measurement": "win_mem",
-          "orderByTime": "ASC",
-          "policy": "default",
-          "query": "SELECT mean(\"startup_mode\") FROM \"win_cpu\" WHERE $timeFilter GROUP BY time($__interval) fill(none)",
-          "rawQuery": false,
-          "refId": "E",
-          "resultFormat": "time_series",
-          "select": [
-            [
-              {
-                "params": [
-                  "Available_Bytes"
-                ],
-                "type": "field"
-              },
-              {
-                "params": [],
-                "type": "mean"
-              },
-              {
-                "params": [
-                  "Available Bytes"
+                  "Available MBytes"
                 ],
                 "type": "alias"
               }
@@ -749,7 +696,7 @@
             [
               {
                 "params": [
-                  "Disk_Reads_persec"
+                  "Avg._Disk_sec/Read"
                 ],
                 "type": "field"
               },
@@ -802,7 +749,7 @@
             [
               {
                 "params": [
-                  "Disk_Writes_persec"
+                  "Avg._Disk_sec/Write"
                 ],
                 "type": "field"
               },
@@ -1032,6 +979,112 @@
           ],
           "tags": [],
           "tz": "UTC"
+        },
+        {
+          "alias": "$col",
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "host"
+              ],
+              "type": "tag"
+            },
+            {
+              "params": [
+                "none"
+              ],
+              "type": "fill"
+            }
+          ],
+          "hide": false,
+          "measurement": "win_net",
+          "orderByTime": "ASC",
+          "policy": "default",
+          "query": "SELECT mean(\"Percent_Processor_Time\") AS \"% Processor Time\", mean(\"Percent_User_Time\") AS \"% User Time\" FROM \"win_cpu\" WHERE $timeFilter GROUP BY time($__interval), \"host\" fill(none) tz('UTC')",
+          "rawQuery": false,
+          "refId": "E",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "Bytes_Total_persec"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "mean"
+              },
+              {
+                "params": [
+                  "Bytes Total/sec"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "tags": [],
+          "tz": "UTC"
+        },
+        {
+          "alias": "$col",
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "host"
+              ],
+              "type": "tag"
+            },
+            {
+              "params": [
+                "none"
+              ],
+              "type": "fill"
+            }
+          ],
+          "hide": false,
+          "measurement": "win_diskio",
+          "orderByTime": "ASC",
+          "policy": "default",
+          "query": "SELECT mean(\"Percent_Processor_Time\") AS \"% Processor Time\", mean(\"Percent_User_Time\") AS \"% User Time\" FROM \"win_cpu\" WHERE $timeFilter GROUP BY time($__interval), \"host\" fill(none) tz('UTC')",
+          "rawQuery": false,
+          "refId": "O",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "Avg._Disk_Queue_Length"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "mean"
+              },
+              {
+                "params": [
+                  "Avg. Disk Queue Length"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "tags": [],
+          "tz": "UTC"
         }
       ],
       "thresholds": [],
@@ -1077,7 +1130,7 @@
       }
     }
   ],
-  "refresh": "5s",
+  "refresh": false,
   "schemaVersion": 26,
   "style": "dark",
   "tags": [],
@@ -1092,5 +1145,5 @@
   "timezone": "",
   "title": "Homework",
   "uid": "IZmG4xFMk",
-  "version": 2
+  "version": 3
 }
