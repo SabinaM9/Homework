@@ -1,0 +1,79 @@
+package Calcul;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import com.google.gson.JsonObject;
+
+/**
+ * Servlet implementation class servletCalcul
+ */
+@WebServlet(urlPatterns = "/calcul")
+public class servletCalcul extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+    
+	Gson gson = new GsonBuilder().setPrettyPrinting().create();
+	
+    /**
+     * @see HttpServlet#HttpServlet()
+     */
+    public servletCalcul() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		response.setContentType("application/json;charset=utf-8");
+		request.setCharacterEncoding("UTF-8");
+		
+		PrintWriter pw = response.getWriter();
+		
+		StringBuffer stringBuffer = new StringBuffer();
+        String line;
+        
+        try {
+            BufferedReader reader = request.getReader();
+            while ((line = reader.readLine()) != null) {
+                stringBuffer.append(line);
+            }
+        } catch (Exception e) {
+            System.out.println("Error");
+        }
+        
+        JsonObject jsonObject = gson.fromJson(String.valueOf(stringBuffer), JsonObject.class);
+
+        double num_1 = 0;
+        num_1 = jsonObject.get("a").getAsDouble();
+        double num_2 = 0;
+        num_2 = jsonObject.get("b").getAsDouble();
+        String action = jsonObject.get("math").getAsString();
+
+        double res = 0.0;
+        if (action != null ) {
+        	if (action.equals("+")) {
+        		res = num_1 + num_2;	
+        	} else if (action.equals("-")) { 
+        		res = num_1 - num_2;
+        	} else if (action.equals("*")) { 
+        		res = num_1 * num_2;	
+        	} else if (action.equals("/") && num_2 != 0.0) { 
+        		res = num_1 / num_2;
+        	} else {
+        		pw.print(gson.toJson("Некорректная математическая операция! Результат неверный!"));
+        	}
+        	pw.print(gson.toJson("result: " + res));
+        	
+        } else {
+        	pw.print(gson.toJson("Невозможно выполнить операцию!"));
+        }
+	}
+}
