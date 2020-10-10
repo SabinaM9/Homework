@@ -1,0 +1,69 @@
+package ru.appline.logic;
+
+//import java.util.HashMap;
+//import java.util.Map;
+
+import com.google.common.collect.ArrayListMultimap;
+import com.google.common.collect.Multimap;
+
+public class CompasModel {
+	
+//	private final Map<Compas, Integer> model;
+	
+	Multimap<Compas, Integer> compas = ArrayListMultimap.create();
+	
+/*  "North":		"331-29",
+ 	"North-East":	"30-60",
+    "East":			"61-119",
+    "South-East":	"120-150",
+    "South":		"151-209",
+	"South-West":	"210-240",
+    "West":			"241-299",
+    "North-West":	"300-330",
+*/
+	Compas direction = new Compas();
+	public void mapMaking() {
+		for (int i = 0; i < 360; i++) {
+			if (i > 330 || i < 30) {			//North
+				direction.setDirection("North");
+				compas.put(direction, i);
+			} else if (i > 29 && i < 61) {		//North-East
+				Compas direction = new Compas("North-East");
+				compas.put(direction, i);
+			} else if (i > 60 && i < 120) {		//East
+				Compas direction = new Compas("East");
+				compas.put(direction, i);
+			} else if (i > 119 && i < 151) {	//South-East
+				Compas direction = new Compas("South-East");
+				compas.put(direction, i);
+			} else if (i > 150 && i < 210) {	//South
+				Compas direction = new Compas("South");
+				compas.put(direction, i);
+			} else if (i > 209 && i < 241) {	//South-West
+				Compas direction = new Compas("South-West");
+				compas.put(direction, i);
+			} else if (i > 240 && i < 300) {	//West
+				Compas direction = new Compas("West");
+				compas.put(direction, i);
+			} else if (i > 299 && i < 331) {	//North-West
+				Compas direction = new Compas("North-West");
+				compas.put(direction, i);
+			}
+		}	
+	}
+	
+	
+/*	}
+	
+	public CompasModel() {
+		model = new HashMap<Compas, Integer>();
+	}
+	
+	public static CompasModel getInstance() {
+		return instance;
+	}
+	
+	public Integer getFromList (int degree) {
+		return model.
+	}*/
+}

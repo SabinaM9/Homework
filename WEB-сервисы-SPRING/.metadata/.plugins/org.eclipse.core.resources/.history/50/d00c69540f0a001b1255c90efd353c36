@@ -1,0 +1,92 @@
+package ru.appline.controller;
+
+import java.util.concurrent.atomic.AtomicInteger;
+import java.util.Map;
+
+import org.springframework.web.bind.annotation.RestController;
+
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import ru.appline.logic.PetModel;
+import ru.appline.logic.Pet;
+
+@RestController
+public class Controller {
+
+
+	Gson gson = new GsonBuilder().setPrettyPrinting().create();
+	
+	private static final PetModel petModel = PetModel.getInstance();
+	private static final AtomicInteger newId = new AtomicInteger(1);
+	
+	@PostMapping(value = "/createPet", consumes = "application/json")
+	public String createPet (@RequestBody Pet pet) {
+		petModel.add(pet, newId.getAndIncrement());
+
+		if (newId.intValue() == 2) {
+			return gson.toJson("Поздравляем! Высоздали своего первого питомца по имени " +
+								petModel.getFromList(1).getName().toString());
+		} else {
+			return gson.toJson("Новый питомец создан успешно!");
+		}
+	}
+	
+	@GetMapping(value = "/getAll", produces = "application/json")
+	public Map<Integer, Pet> getAll() {
+		return petModel.getAll();
+	}
+	
+	/*
+	 {
+	 	"id": 9
+	 }
+	 */
+	@GetMapping(value = "/getPet", produces = "application/json")
+	public Pet getPet(@RequestBody Map<String, Integer> id) {
+		return petModel.getFromList(id.get("id"));
+	}
+	
+	//Удаление по ID
+/*	@DeleteMapping(value = "/deletePet", consumes = "application/json")
+	public String deletePet (@RequestParam(value="id") Integer id) {
+		petModel.delete(id.get("id"));
+		final String text = new String(petModel.getFromList(id.get("id")).getName().toString());
+		return gson.toJson("Питомец по имени  " +
+							text +
+							" удален :(");
+*/
+	@DeleteMapping(value = "/deletePet", consumes = "application/json")
+	public void deletePet (@RequestBody Map<String, Integer> id) {
+		final String text = new String(petModel.getFromList(id.get("id")).getName().toString());
+		petModel.delete(id.get("id"));
+		System.out.println(gson.toJson("Питомец по имени  " +
+				text +
+				" удален :("));
+	/*	return gson.toJson("Питомец по имени  " +
+							text +
+							" удален :(");	*/
+/*
+@ResponseBody
+@DeleteMapping("/delete")
+public Result delete(@RequestParam(name = "id") String id) {
+	Result result = new Result();
+	OSSFile file = ossFileService.getById(id);
+	if (file == null) {
+		result.error500("未找到对应实体");
+	}
+	else {
+		boolean ok = ossFileService.delete(file);
+		if (ok) {
+			result.success("删除成功!");
+		}
+	}
+	return result;
+}
+*/
+	}
+}

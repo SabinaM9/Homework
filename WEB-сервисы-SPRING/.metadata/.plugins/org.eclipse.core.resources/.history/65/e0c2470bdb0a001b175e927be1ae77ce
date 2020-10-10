@@ -1,0 +1,218 @@
+package ru.appline.logic;
+
+import java.io.Serializable;
+import java.util.Map;
+
+public class Compas implements Serializable {
+
+private static final long serialVersionUID = -4763293050377186448L;
+	
+//	public static ArrayList<Integer> a1 = new ArrayList<Integer>();
+//	public static ArrayList<Integer> a2 = new ArrayList<Integer>();
+//	public static ArrayList<Integer> a3 = new ArrayList<Integer>();
+//	public static ArrayList<Integer> a4 = new ArrayList<Integer>();
+//	public static ArrayList<Integer> a5 = new ArrayList<Integer>();
+//	public static ArrayList<Integer> a6 = new ArrayList<Integer>();
+//	public static ArrayList<Integer> a7 = new ArrayList<Integer>();
+//	public static ArrayList<Integer> a8 = new ArrayList<Integer>();
+
+	public static int[] a1 = new int[2];	//[Integer, Integer]
+	public static int[] a2 = new int[2];
+	public static int[] a3 = new int[2];
+	public static int[] a4 = new int[2];
+	public static int[] a5 = new int[2];
+	public static int[] a6 = new int[2];
+	public static int[] a7 = new int[2];
+	public static int[] a8 = new int[2];
+	
+	public void saveCompas(Map<String, String> compas) {
+		
+			String list_1 = compas.get("North");		// "360-0"
+			String list_2 = compas.get("North-East");
+			String list_3 = compas.get("East");
+			String list_4 = compas.get("South-East");
+			String list_5 = compas.get("South");
+			String list_6 = compas.get("South-West");
+			String list_7 = compas.get("West");
+			String list_8 = compas.get("North-West");
+			
+			String[] list_1s = list_1.split("-", 2);	//["360", "0"]
+			String[] list_2s = list_2.split("-", 2);
+			String[] list_3s = list_3.split("-", 2);
+			String[] list_4s = list_4.split("-", 2);
+			String[] list_5s = list_5.split("-", 2);
+			String[] list_6s = list_6.split("-", 2);
+			String[] list_7s = list_7.split("-", 2);
+			String[] list_8s = list_8.split("-", 2);
+		
+			
+//			ArrayList<Integer> a2 = new ArrayList<Integer>();
+//			ArrayList<Integer> a3 = new ArrayList<Integer>();
+//			ArrayList<Integer> a4 = new ArrayList<Integer>();
+//			ArrayList<Integer> a5 = new ArrayList<Integer>();
+//			ArrayList<Integer> a6 = new ArrayList<Integer>();
+//			ArrayList<Integer> a7 = new ArrayList<Integer>();
+//			ArrayList<Integer> a8 = new ArrayList<Integer>();
+			
+			a1[0] = Integer.parseInt(list_1s[0]);
+			a2[0] = Integer.parseInt(list_2s[0]);
+			a3[0] = Integer.parseInt(list_3s[0]);
+			a4[0] = Integer.parseInt(list_4s[0]);
+			a5[0] = Integer.parseInt(list_5s[0]);
+			a6[0] = Integer.parseInt(list_6s[0]);
+			a7[0] = Integer.parseInt(list_7s[0]);
+			a8[0] = Integer.parseInt(list_8s[0]);
+			
+			a1[1] = Integer.parseInt(list_1s[1]);
+			a2[1] = Integer.parseInt(list_2s[1]);
+			a3[1] = Integer.parseInt(list_3s[1]);
+			a4[1] = Integer.parseInt(list_4s[1]);
+			a5[1] = Integer.parseInt(list_5s[1]);
+			a6[1] = Integer.parseInt(list_6s[1]);
+			a7[1] = Integer.parseInt(list_7s[1]);
+			a8[1] = Integer.parseInt(list_8s[1]);
+//			a1.add(Integer.parseInt(list_1s[0]), Integer.parseInt(list_1s[1]));	// a1 = [360, 0]
+//			a2.add(Integer.parseInt(list_2s[0]), Integer.parseInt(list_2s[1]));
+//			a3.add(Integer.parseInt(list_3s[0]), Integer.parseInt(list_3s[1]));
+//			a4.add(Integer.parseInt(list_4s[0]), Integer.parseInt(list_4s[1]));
+//			a5.add(Integer.parseInt(list_5s[0]), Integer.parseInt(list_5s[1]));
+//			a6.add(Integer.parseInt(list_6s[0]), Integer.parseInt(list_6s[1]));
+//			a7.add(Integer.parseInt(list_7s[0]), Integer.parseInt(list_7s[1]));
+//			a8.add(Integer.parseInt(list_8s[0]), Integer.parseInt(list_8s[1]));
+//			
+			
+	
+//	private static final long serialVersionUID = -4763293050377186448L;
+//	
+//	public static ArrayList<Integer> a1 = new ArrayList<Integer>();
+//	public static ArrayList<Integer> a2 = new ArrayList<Integer>();
+//	public static ArrayList<Integer> a3 = new ArrayList<Integer>();
+//	public static ArrayList<Integer> a4 = new ArrayList<Integer>();
+//	public static ArrayList<Integer> a5 = new ArrayList<Integer>();
+//	public static ArrayList<Integer> a6 = new ArrayList<Integer>();
+//	public static ArrayList<Integer> a7 = new ArrayList<Integer>();
+//	public static ArrayList<Integer> a8 = new ArrayList<Integer>();
+//	
+//	public void saveCompas(Map<String, String> compas) {
+//			String list_1 = compas.get("North");
+//			String list_2 = compas.get("North-East");
+//			String list_3 = compas.get("East");
+//			String list_4 = compas.get("South-East");
+//			String list_5 = compas.get("South");
+//			String list_6 = compas.get("South-West");
+//			String list_7 = compas.get("West");
+//			String list_8 = compas.get("North-West");
+//			
+//			String[] list_1s = list_1.split("-", 2);
+//			String[] list_2s = list_2.split("-", 2);
+//			String[] list_3s = list_3.split("-", 2);
+//			String[] list_4s = list_4.split("-", 2);
+//			String[] list_5s = list_5.split("-", 2);
+//			String[] list_6s = list_6.split("-", 2);
+//			String[] list_7s = list_7.split("-", 2);
+//			String[] list_8s = list_8.split("-", 2);
+//		
+//			ArrayList<Integer> a1 = new ArrayList<Integer>();
+//			ArrayList<Integer> a2 = new ArrayList<Integer>();
+//			ArrayList<Integer> a3 = new ArrayList<Integer>();
+//			ArrayList<Integer> a4 = new ArrayList<Integer>();
+//			ArrayList<Integer> a5 = new ArrayList<Integer>();
+//			ArrayList<Integer> a6 = new ArrayList<Integer>();
+//			ArrayList<Integer> a7 = new ArrayList<Integer>();
+//			ArrayList<Integer> a8 = new ArrayList<Integer>();
+//			
+//			for (int i = 0; i < 360; i++) {
+//				if (i >= Integer.parseInt(list_1s[0]) || i <= Integer.parseInt(list_1s[1])) {			//North
+//					a1.add(i);
+//				} else if (i >= Integer.parseInt(list_2s[0]) && i <= Integer.parseInt(list_2s[1])) {	//North-East
+//					a2.add(i);
+//				} else if (i >= Integer.parseInt(list_3s[0]) && i <= Integer.parseInt(list_3s[1])) {	//East
+//					a3.add(i);
+//				} else if (i >= Integer.parseInt(list_4s[0]) && i <= Integer.parseInt(list_4s[1])) {	//South-East
+//					a4.add(i);
+//				} else if (i >= Integer.parseInt(list_5s[0]) && i <= Integer.parseInt(list_5s[1])) {	//South
+//					a5.add(i);
+//				} else if (i >= Integer.parseInt(list_6s[0]) && i <= Integer.parseInt(list_6s[1])) {	//South-West
+//					a6.add(i);
+//				} else if (i >= Integer.parseInt(list_7s[0]) && i <= Integer.parseInt(list_7s[1])) {	//West
+//					a7.add(i);
+//				} else if (i >= Integer.parseInt(list_8s[0]) && i <= Integer.parseInt(list_8s[1])) {	//North-West
+//					a8.add(i);
+//				}
+//			}
+//--------------------------------------------------------------------------			
+//			table.put("North", a1);
+//			table.put("North-East", a2);
+//			table.put("East", a3);
+//			table.put("South-East", a4);
+//			table.put("South", a5);
+//			table.put("South-West", a6);
+//			table.put("West", a7);
+//			table.put("North-West", a8);
+	}
+/*	private Object North;
+	private Object North_East;
+	private Object East;
+	private Object South_East;
+	private Object South;
+	private Object South_West;
+	private Object West;
+	private Object North_West;
+
+	public Compas () {
+		super();
+	}
+	public Compas (String direction) {
+		this.direction = direction;
+	}
+	
+	public Object getNorth() {
+		return North;
+	}
+	public void setNorth(Object north) {
+		North = north;
+	}
+	public Object getNorth_East() {
+		return North_East;
+	}
+	public void setNorth_East(Object north_East) {
+		North_East = north_East;
+	}
+	public Object getEast() {
+		return East;
+	}
+	public void setEast(Object east) {
+		East = east;
+	}
+	public Object getSouth_East() {
+		return South_East;
+	}
+	public void setSouth_East(Object south_East) {
+		South_East = south_East;
+	}
+	public Object getSouth() {
+		return South;
+	}
+	public void setSouth(Object south) {
+		South = south;
+	}
+	public Object getSouth_West() {
+		return South_West;
+	}
+	public void setSouth_West(Object south_West) {
+		South_West = south_West;
+	}
+	public Object getWest() {
+		return West;
+	}
+	public void setWest(Object west) {
+		West = west;
+	}
+	public Object getNorth_West() {
+		return North_West;
+	}
+	public void setNorth_West(Object north_West) {
+		North_West = north_West;
+	}
+*/
+}

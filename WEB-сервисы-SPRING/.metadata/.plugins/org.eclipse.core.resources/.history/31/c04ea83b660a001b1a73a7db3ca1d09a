@@ -1,0 +1,38 @@
+package ru.appline.controller;
+
+import java.util.Map;
+
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+
+import ru.appline.logic.CompasModel;
+
+/*
+@RestController
+public class Controller {
+	Gson gson = new GsonBuilder().setPrettyPrinting().create();
+	private static final CompasModel compasModel = CompasModel.getInstance();
+	
+	@PostMapping(value = "/createCompas", consumes = "application/json", produces = "application/json")
+	public Multimap<Compas, Integer> createCompas (@RequestBody Multimap<Compas, Integer> compas) {
+		compasModel.add(compas);
+		return compasModel.showCompas();
+	}
+*/	
+@RestController
+public class Controller {
+	Gson gson = new GsonBuilder().setPrettyPrinting().create();
+	private static final CompasModel compasModel = CompasModel.getInstance();
+	
+	@PostMapping(value = "/createCompas", consumes = "application/json", produces = "application/json")
+	public Map<String, Integer> createCompas (@RequestBody Map<String, Integer> compas) {
+		compasModel.add(compas);
+		return compasModel.showCompas();
+	}
+	
+	
+}

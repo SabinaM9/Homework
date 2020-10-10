@@ -1,0 +1,69 @@
+package ru.appline.logic;
+
+public class Compas {
+	
+	private String North;
+	private String North_East;
+	private String East;
+	private String South_East;
+	private String South;
+	private String South_West;
+	private String West;
+	private String North_West;
+
+/*	public Compas () {
+		super();
+	}
+	public Compas (String direction) {
+		this.direction = direction;
+	}*/
+	public String getNorth() {
+		return North;
+	}
+	public void setNorth(String north) {
+		North = north;
+	}
+	public String getNorth_East() {
+		return North_East;
+	}
+	public void setNorth_East(String north_East) {
+		North_East = north_East;
+	}
+	public String getEast() {
+		return East;
+	}
+	public void setEast(String east) {
+		East = east;
+	}
+	public String getSouth_East() {
+		return South_East;
+	}
+	public void setSouth_East(String south_East) {
+		South_East = south_East;
+	}
+	public String getSouth() {
+		return South;
+	}
+	public void setSouth(String south) {
+		South = south;
+	}
+	public String getSouth_West() {
+		return South_West;
+	}
+	public void setSouth_West(String south_West) {
+		South_West = south_West;
+	}
+	public String getWest() {
+		return West;
+	}
+	public void setWest(String west) {
+		West = west;
+	}
+	public String getNorth_West() {
+		return North_West;
+	}
+	public void setNorth_West(String north_West) {
+		North_West = north_West;
+	}
+
+}

@@ -1,0 +1,82 @@
+package ru.appline.controller;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+
+import ru.appline.logic.Compas;
+
+@RestController
+public class Controller {
+	Gson gson = new GsonBuilder().setPrettyPrinting().create();
+	Compas comp = new Compas();
+	
+	/*  
+	 {
+	 "North":		"331-29",
+ 	"North-East":	"30-60",
+    "East":			"61-119",
+    "South-East":	"120-150",
+    "South":		"151-209",
+	"South-West":	"210-240",
+    "West":			"241-299",
+    "North-West":	"300-330"
+    }
+	*/
+	
+	@PostMapping(value = "/createCompas", consumes = "application/json", produces = "application/json")
+	public Map<String, String> createCompas (@RequestBody Map<String, String> compas) {
+		comp.saveCompas(compas);
+		return compas;
+	}
+	
+	/*
+	{
+		"Degree": 56
+	}
+	*/
+	@GetMapping(value = "/getCompas", produces = "application/json")
+	public Map<String, String> getSide (@RequestBody Map<String, String> degree){
+		
+		String s = "Side";
+		Map<String, String> response = new HashMap<>();
+		
+		if (degree.containsValue("Degree")) {
+			
+			int x = Integer.parseInt(degree.get("Degree"));
+			
+			if (x >= 0 && x <= 360) {
+				if (x >= Compas.a1[0] || x <= Compas.a1[1]) {			//North
+					response.put(s, "North");
+				} else if (x >= Compas.a2[0] && x <= Compas.a2[1]) {	//North-East
+					response.put(s, "North-East");
+				} else if (x >= Compas.a3[0] && x <= Compas.a3[1]) {	//East
+					response.put(s, "East");
+				} else if (x >= Compas.a4[0] && x <= Compas.a4[1]) {	//South-East
+					response.put(s, "South-East");
+				} else if (x >= Compas.a5[0] && x <= Compas.a5[1]) {	//South
+					response.put(s, "South");
+				} else if (x >= Compas.a6[0] && x <= Compas.a6[1]) {	//South-West
+					response.put(s, "South-West");
+				} else if (x >= Compas.a7[0] && x <= Compas.a7[1]) {	//West
+					response.put(s, "West");
+				} else if (x >= Compas.a8[0] && x <= Compas.a8[1]) {	//North-West
+					response.put(s, "North-West");
+				}
+			} else {
+				response.put("Error", "Число должно быть от 0 до 360!");
+			}
+			
+		} else if (!degree.containsValue("Degree")) {
+			response.put("Error", "ПОЖАЛУЙСТА, ВЕДИТЕ ЗАПРОС В ФОРМАТЕ: 'Degree': <число от 0 до 360>");
+		}
+		return response;
+	}
+}

@@ -1,0 +1,16 @@
+1602252860007	Rename type 'compas'
+1602253049489	Rename type 'Compas'
+1602255865304	Encapsulate field 'direction'
+1602255931602	Encapsulate field 'degree'
+1602258692562	Encapsulate field 'instance'
+1602265437376	Encapsulate field 'North'
+1602265443125	Encapsulate field 'North_East'
+1602265448141	Encapsulate field 'East'
+1602265452996	Encapsulate field 'South_East'
+1602265458763	Encapsulate field 'South'
+1602265464124	Encapsulate field 'South_West'
+1602265468984	Encapsulate field 'West'
+1602265475788	Encapsulate field 'North_West'
+1602270753122	Move file
+1602270765155	Move file
+1602325132195	Delete element

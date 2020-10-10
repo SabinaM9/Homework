@@ -37,12 +37,12 @@ public class servletDelete extends HttpServlet {
 		response.setContentType("application/json;charset=utf-8");
 		request.setCharacterEncoding("UTF-8");
 		
-		PrintWriter pw = response.getWriter();
+		//PrintWriter pw = response.getWriter();
 		int id = Integer.parseInt(request.getParameter("id"));
 		
 		if (id > 0 && model.getFromList().get(id) != null) {
-			pw.print(gson.toJson("Пользователь " +
-								model.getFromList().get(id).getName() + 
+			print(gson.toJson("Поздравляем! Высоздали своего первого питомца по имени" +
+								PetModel.getFromList().get(id).getName() + 
 								" " +
 								model.getFromList().get(id).getSurname() + 
 								" с зарплатой " +

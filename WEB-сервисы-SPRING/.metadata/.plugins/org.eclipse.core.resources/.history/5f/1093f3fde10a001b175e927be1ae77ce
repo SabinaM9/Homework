@@ -1,0 +1,32 @@
+//package ru.appline.logic;
+//
+//import java.util.ArrayList;
+//import java.util.HashMap;
+//import java.util.Map;
+//
+////import java.util.HashMap;
+////import java.util.Map;
+//
+//
+//public class CompasModel {
+//	
+////	private final Map<Compas, Integer> model;
+//	
+//	private Map<String, ArrayList<Integer>> compas = new HashMap<String, ArrayList<Integer>>();
+//	private static final CompasModel instance = new CompasModel();
+////	public Multimap<Object, Integer> model;
+////	private Map<String, String> compasString = new HashMap<String, String>();
+//	
+//	public static CompasModel getInstance() {
+//		return instance;
+//	}
+//	public void add (Map<String, ArrayList<Integer>> new_compas) {
+//		this.compas = new_compas;
+//	}
+//	
+////	public Map<String, String> showCompas(Map<String, String>) {
+////		compasString = 
+////		return compasString;
+////	}
+//
+//}

@@ -1,0 +1,103 @@
+package ru.appline.controller;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+
+import ru.appline.logic.Compas;
+
+@RestController
+public class Controller {
+	Gson gson = new GsonBuilder().setPrettyPrinting().create();
+//	private static final CompasModel compasModel = CompasModel.getInstance();
+	Compas comp = new Compas();
+/*	@PostMapping(value = "/createCompas", consumes = "application/json", produces = "application/json")
+	public Map<String, ArrayList<Integer>> createCompas (@RequestBody Map<String, ArrayList<Integer>> compas) {
+		compasModel.add(compas);
+		return compasModel.showCompas();
+	}
+*/	
+	@PostMapping(value = "/createCompas", consumes = "application/json", produces = "application/json")
+	public Map<String, String> createCompas (@RequestBody Map<String, String> compas) {
+		//final CompasModel compasShow = compasModel;
+		comp.saveCompas(compas);
+		return compas;
+	}
+	/*  "North":		"331-29",
+	 	"North-East":	"30-60",
+	    "East":			"61-119",
+	    "South-East":	"120-150",
+	    "South":		"151-209",
+		"South-West":	"210-240",
+	    "West":			"241-299",
+	    "North-West":	"300-330",
+	*/
+		/*
+		 String list_1 = compas.get("North");
+		 String[] list_1s = list_1.split("-", 2);
+		 ArrayList<Integer> a1 = new ArrayList<Integer>();
+		 a1.add(i);//ints
+		 1 = north
+		 
+		 */
+	
+		/*			
+
+		Integer[][] table = new Integer[8][];
+		
+		for (Integer i = 0; i < 8; i++) {
+			String list = compas.get(directions[i]); 
+			String[] list_s = list.split("-", 2);	//"40-60" -> ["40", "60"]
+			for (Integer j = 0; j < 360; j++) {			//["40", "60"] -> 40, 60 by parseInt()
+				if (j >= Integer.parseInt(list_s[1]) || j <= Integer.parseInt(list_s[2])) {			//North
+					table[i][j] = j;
+				} else if (j >= Integer.parseInt(list_s[1]) && j <= Integer.parseInt(list_s[2])) {	//North-East
+					table[i][j] = j;
+				} else if (i >= Integer.parseInt(list_3s[1]) && i <= Integer.parseInt(list_3s[2])) {	//East
+					a3.add(i);
+				} else if (i >= Integer.parseInt(list_4s[1]) && i <= Integer.parseInt(list_4s[2])) {	//South-East
+					a4.add(i);
+				} else if (i >= Integer.parseInt(list_5s[1]) && i <= Integer.parseInt(list_5s[2])) {	//South
+					a5.add(i);
+				} else if (i >= Integer.parseInt(list_6s[1]) && i <= Integer.parseInt(list_6s[2])) {	//South-West
+					a6.add(i);
+				} else if (i >= Integer.parseInt(list_7s[1]) && i <= Integer.parseInt(list_7s[2])) {	//West
+					a7.add(i);
+				} else if (i >= Integer.parseInt(list_8s[1]) && i <= Integer.parseInt(list_8s[2])) {	//North-West
+					a8.add(i);
+				}
+			
+		}
+*/		
+	@GetMapping(value = "/getCompas", produces = "application/json")
+	public Map<String, String> getSide (Map<String, Integer> degree){
+		String s = "Side";
+		Map<String, String> response = new HashMap<>();
+		if (Compas.a1.contains(degree.get("Degree"))) {
+			response.put(s, "North");
+		} else if (Compas.a2.contains(degree.get("Degree"))) {
+			response.put(s, "North-East");
+		} else if (Compas.a3.contains(degree.get("Degree"))) {
+			response.put(s, "East");
+		} else if (Compas.a4.contains(degree.get("Degree"))) {
+			response.put(s, "South-East");
+		} else if (Compas.a5.contains(degree.get("Degree"))) {
+			response.put(s, "South");
+		} else if (Compas.a6.contains(degree.get("Degree"))) {
+			response.put(s, "South-West");
+		} else if (Compas.a7.contains(degree.get("Degree"))) {
+			response.put(s, "West");
+		} else if (Compas.a8.contains(degree.get("Degree"))) {
+			response.put(s, "North-West");
+		}
+		return response;
+	}
+	
+}

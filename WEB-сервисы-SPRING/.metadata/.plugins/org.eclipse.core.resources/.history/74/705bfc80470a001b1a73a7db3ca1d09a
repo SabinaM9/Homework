@@ -1,0 +1,8 @@
+package ru.appline.logic;
+
+import java.io.Serializable;
+
+public class CompasModel implements Serializable {
+	private static final CompasModel instance = new CompasModel();
+	
+}
